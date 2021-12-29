@@ -1,0 +1,502 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  28 DEC 2021 23:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Agglossarium_V1.tex
+(./Agglossarium_V1.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count188
+\U@D=\dimen139
+\l@babelnohyphens=\language87
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count189
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2020/10/10 v3.5l French support from the babel system
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language29) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language29) on input line 92.
+\FB@nonchar=\count190
+Package babel Info: Making : an active character on input line 430.
+Package babel Info: Making ; an active character on input line 431.
+Package babel Info: Making ! an active character on input line 432.
+Package babel Info: Making ? an active character on input line 433.
+\FBguill@level=\count191
+\FBold@everypar=\toks17
+\FB@Mht=\dimen140
+\mc@charclass=\count192
+\mc@charfam=\count193
+\mc@charslot=\count194
+\std@mcc=\count195
+\dec@mcc=\count196
+\listindentFB=\dimen141
+\descindentFB=\dimen142
+\labelindentFB=\dimen143
+\labelwidthFB=\dimen144
+\leftmarginFB=\dimen145
+\parindentFFN=\dimen146
+\FBfnindent=\dimen147
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
+LaTeX Info: Redefining \not on input line 1043.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/verse/verse.sty
+Package: verse 2009/09/04 v2.4a verse typesetting
+\c@vslineno=\count197
+\c@poemline=\count198
+\c@fvsline=\count199
+\c@modulo@vs=\count266
+\c@verse@envctr=\count267
+\versewidth=\skip49
+\vgap=\skip50
+\vindent=\skip51
+\stanzaskip=\skip52
+\vleftskip=\skip53
+\vrightskip=\skip54
+\c@chrsinstr=\count268
+\beforepoemtitleskip=\skip55
+\afterpoemtitleskip=\skip56
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count269
+\lst@gtempboxa=\box47
+\lst@token=\toks19
+\lst@length=\count270
+\lst@currlwidth=\dimen148
+\lst@column=\count271
+\lst@pos=\count272
+\lst@lostspace=\dimen149
+\lst@width=\dimen150
+\lst@newlines=\count273
+\lst@lineno=\count274
+\lst@maxwidth=\dimen151
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count275
+\lst@skipnumbers=\count276
+\lst@framebox=\box48
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `Agglossarium_V1.idx'.
+
+
+Writing index file Agglossarium_V1.idx
+\phila=\skip57
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks20
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 65
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/t1txr.fd
+File: t1txr.fd 2000/12/15 v3.1
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box49
+)
+
+LaTeX Warning: Unused global option(s):
+    [1pt].
+
+(./Agglossarium_V1.aux)
+\openout1 = `Agglossarium_V1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 65.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+65.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 65.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+65.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 65.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+65.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 65.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 6
+5.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Info: Redefining \degres on input line 65.
+LaTeX Info: Redefining \dots on input line 65.
+LaTeX Info: Redefining \up on input line 65.
+\c@lstlisting=\count281
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=617.4248pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=11.47354pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=61.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 65.
+LaTeX Font Info:    Trying to load font information for T1+jkplos on input line
+ 72.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kpfonts/t1jkplos.fd
+File: t1jkplos.fd 2007/08/30 Fontinst v1.928 font definitions for T1/jkplos.
+) [1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/txr/b/sc' in size <14.4> not available
+(Font)              Font shape `T1/txr/bx/sc' tried instead on input line 89.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+0.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
+0.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
+0.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
+0.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
+0.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+) [2] [3]
+[4]
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <20.74> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 128.
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <24.88> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 128.
+ [5
+
+]
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <14.4> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 131.
+
+
+LaTeX Warning: Citation `A01' undefined on input line 149.
+
+
+Overfull \hbox (4.89319pt too wide) in paragraph at lines 148--151
+ [] \T1/jkplos/m/n/12 AEEEEEEEEEEEEEEEEEIOOOOOOOOOOOOOOOOOU.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
+ 
+ []
+
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 156.
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+[22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+Overfull \hbox (10.56905pt too wide) in paragraph at lines 819--820
+ |[] \T1/jkplos/m/n/12 et pa-
+ []
+
+
+Overfull \hbox (2.26987pt too wide) in paragraph at lines 819--820
+ \T1/jkplos/m/n/12 vés ou dal-lés comme ils vou-dront comme des chan-
+ []
+
+[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
+[51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
+[66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
+[81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102]
+Overfull \hbox (0.9451pt too wide) in paragraph at lines 2139--2139
+ [] [] \T1/jkplos/m/n/12 de ces mêmes images est his-toire contée en strates bl
+eues
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+jkplos on input lin
+e 2157.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kpfonts/ts1jkplos.fd
+File: ts1jkplos.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkpos.
+) [103]
+[104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115]
+[116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127]
+[128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139]
+[140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151]
+[152] [153] [154] [155]
+Overfull \hbox (1.16107pt too wide) in paragraph at lines 3053--3054
+ []\T1/jkplos/m/n/12 Partout sous l'eau existent des villes, les villes an-cien
+nes.
+ []
+
+
+Overfull \hbox (13.96513pt too wide) in paragraph at lines 3074--3075
+ []\T1/jkplos/m/n/12 Tu ris-que-rais de trou-ver une âme an-cienne dans ton ven
+tre,
+ []
+
+[156] [157] [158] [159] [160] [161] [162] [163] [164] [165] [166] [167]
+[168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [178] [179]
+[180] [181] [182] [183]
+Overfull \hbox (1.3411pt too wide) in paragraph at lines 3714--3715
+ |[]
+ []
+
+[184] [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195]
+[196] [197] [198] [199]
+LaTeX Font Info:    Calculating math sizes for size <30> on input line 4082.
+ [200] 
+AED: lastpage setting LastPage
+[201] (./Agglossarium_V1.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5872 strings out of 478994
+ 81249 string characters out of 5858184
+ 389489 words of memory out of 5000000
+ 23271 multiletter control sequences out of 15000+600000
+ 513778 words of font info for 180 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,12n,74p,844b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2021/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}</usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/kpfonts/jkplmit8a.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/kpfonts/jkplmn8a.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/kpfonts/jkplmnc.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/kpfonts/jkplmne.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/kpfonts/jkplmsc8a.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on Agglossarium_V1.pdf (201 pages, 259405 bytes).
+PDF statistics:
+ 694 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

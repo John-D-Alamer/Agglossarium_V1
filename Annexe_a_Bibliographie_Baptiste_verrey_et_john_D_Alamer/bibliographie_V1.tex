@@ -1,0 +1,606 @@
+\documentclass[1pt, onecolumn, oneside, a4paper] {book}
+\usepackage[utf8] {inputenc} % Encodage des caractères
+\usepackage[french] {babel} % typographie française
+\usepackage[T1] {fontenc} % encodage des polices
+\usepackage{xspace} % pour gérer les espaces 
+\usepackage{txfonts} % polices pdf de qualité
+\usepackage{verse}% pour écrire des verses
+\usepackage{listings}
+\usepackage{array,multirow,makecell}
+\usepackage{CJKutf8}
+\setcellgapes{1pt}
+\makegapedcells
+\usepackage{supertabular} % tableaux qui tiennent sur plusieurs pages
+
+\newenvironment{verse01}{
+\fontfamily{jkplos}\selectfont
+
+}
+
+\newcommand\x{\\[\stanzaskip]} 
+
+
+
+\addtolength{\stanzaskip}{5pt} % rajoute 10 points
+
+
+
+%index
+\usepackage{makeidx}
+\makeindex
+
+%césure à la française
+\newlength{\phila}
+\newcommand\phicesure[2]{%
+\settowidth\phila{#1}\addtolength{\phila}{-\vindent}
+{#1}\verselinebreak\makebox[\phila][r]{[#2}}
+
+% mise en page
+\pagestyle{plain} %numérotation des pages en bas 
+\usepackage[inner=2cm, top =4cm, outer=2cm, bottom=4cm] {geometry} %regler les marges
+
+
+
+
+
+%en tête 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand\headrulewidth{0,2pt}
+\fancyhead[L]{{ANNEXE $\alpha$ : bibliographie relative à l'Agglossarium}}
+\fancyhead[R]{{ page \thepage/\pageref{LastPage}}}
+
+%pied de page  
+\renewcommand\footrulewidth{0,2pt}
+\fancyfoot[C]{ \textbf{ Version 1.0}\\ \textit{ (dernière compilation avec Texmaker : \today)}
+}
+\fancyfoot[R]{}
+
+\def\cache{\def\?##1{...}}
+\def\visible{\def\?##1{##1}}
+
+
+
+\begin{document}
+\begin{center}
+
+
+\thispagestyle{empty}
+{\fontsize{30}{48}\selectfont ANNEXE $\alpha$ \\ 
+\vspace{8mm}
+\Large (V.1.0)\\ 
+\vspace{5mm}
+\Huge\fontfamily{jkplos}\selectfont
+{\textit{Bibliographie relative\\ à l'Agglossarium}}}\\
+\vspace{15cm}
+\vspace{\fill}
+\end{center}
+%************************************************************
+
+\newpage
+
+
+
+	
+
+
+
+
+ \tablefirsthead{\hline
+Textes & Autairz & Publication originale (Titre, Éditeur, Date) & ITraductairz   & Traduction (Titre, Éditeur, Date)\\}
+\tablehead{\hline
+Textes & Autairz & Publication originale (Titre, Éditeur, Date) & Traductairz   & Traduction (Titre, Éditeur, Date) \\}
+\tabletail{\hline}
+% \multicolumn{5}{|r|}{\sl Continue à la page suivante}\\ \hline
+\fontfamily{jkplos}\selectfont
+\begin{verse01}
+\begin{supertabular}{|>{\centering\arraybackslash} p{0,8cm} |>{\centering\arraybackslash} p{3cm} |>{\centering\arraybackslash} p{4.5cm} |>{\centering\arraybackslash} p{2cm} |>{\centering\arraybackslash} p{4.5cm}|} \hline
+
+
+
+A01 &
+	Mathon, Bernard &
+	«\,Un vamasur nommé palisir\,», \textit{in L’Hexagone halluciné}, 
+	Le livre de poche, 1988 && \\
+	
+\hline
+A02 &
+	Jemesin, Nora K &
+	\textit{The Stone Sky}, Orbit, 2017 &
+	Charrier, Michelle &
+	\textit{Les livres de la terre fracturée}, J’ai Lu, 2018  \\
+ 
+ \hline
+A03 &
+	Le Guin, Ursula K &
+	\textit{Always Coming Home} Harper \& Row, 1985 &
+	Reinharez, Isabelle &
+	\textit{La vallée de l’éternel retour,}, Mnémos, 2019  \\
+	
+\hline
+A04 &
+	Butler, Octavia &
+	\textit{Parable of the talents}, Seven stories press, 1998 &
+	Tate, Iawa &
+	\textit{La parabole des talents},Au diable vauvert, 2001 \\
+	
+\hline
+A05 &
+	Anderson, Poul & 
+	«\,Sam Hall\,», in \textit{Astounding Science Fiction n° 273} , John W. Campbell 	, 1953 &
+	Brèque, Jean-Daniel &
+	«\,Sam Hall\,», in \textit{ Le chant du barde, les meilleurs récits de Poul Anderson, Le 	Bélial, 2001} \\
+
+\hline
+A06 &
+	Anderson, Poul &
+	\textit{Goat Song,} Mercury press, 1972 &
+	Brèque, Jean-Daniel &
+	«\,Le chant du barde\,», in \textit{Le chant du barde}, les meilleurs récits de Poul Anderson, Le Bélial, 2001 \\
+
+\hline 
+A07 &
+	Ayerdhal &
+	\textit{Parleur ou les Chroniques d’un rêve enclavé}, J’ai Lu, 1997 &&\\
+	
+\hline
+A08 &
+	Boulle, Pierre &
+	\textit{Les jeux de l’esprit}, J’ai Lu, 1971 &&\\
+	
+\hline
+A09 &
+	Le Guin, Ursula K &
+	\textit{Always Coming Home}, Harper \& Row, 1985 &
+	Reinharez, Isabelle &
+	\textit{La vallée de l’éternel retour}, Mnémos, 2019 \\
+	
+\hline
+A10 &
+	Delany, Samuel R &
+	\textit{Babel 17}, Ace Books, 1966 &
+	Perrin, Mimi &
+	\textit{Babel 17}, Calmann-Lévy, 1973 \\
+	
+\hline
+A11 &
+	Klein, Gérard &
+	«\,Mémoire vive, mémoire morte\,», in \textit{Mémoire vive, mémoire morte}, Robert Laffont, 2011 & &\\
+	
+\hline
+A12 &
+	Damasio, Alain &
+	\textit{Les furtifs}, La Volte, 2019 &&\\
+	
+\hline
+A13 &
+	Le Guin, Ursula K &
+	\textit{Always Coming Home}, Harper \& Row, 1985 & 
+	Reinharez, Isabelle &
+	\textit{La vallée de l’éternel retour}, Mnémos, 2019 \\
+	
+\hline
+A14 &
+	Demuth, Michel &
+	«\,Nocturnes pour démon\,», in \textit{À l’est du cygne}, La Bélial, 2010 && \\
+	
+\hline 
+A15 &
+	Anderson, Poul &
+	\textit{The graveyard earth}, Ziff-Davis Publishing Company, 1964 &
+	Wiznitze, Martine &
+	«\,Le coeur funéraire\,», in \textit{Une rose pour l’Ecclésiaste}, J’ai lu, 1980 \\
+	
+\hline
+A16 &
+	Anderson, Poul &
+	\textit{The graveyard earth}, Ziff-Davis Publishing Company, 1964 &
+	Wiznitze, Martine &
+	«\,Le coeur funéraire\,», in \textit{Une rose pour l’Ecclésiaste}, J’ai lu, 1980 \\
+	
+\hline
+A17 &
+	Minard, Céline &
+	\textit{Le dernier monde}, Denoël, & & \\ 
+
+\hline
+B01 &
+	Wyndham, John &
+	«\,Survival\,», in 	\textit{Thrilling Wonder Stories}, Experimenter Publishing, 1964 &&\\
+
+
+\hline
+B02 &
+	Jemesin, Nora K &
+	\textit {The Stone Sky}, Orbit, 2017 &
+	Charrier, Michelle &
+	\textit{Les livres de la terre fracturée}, J’ai Lu, 2018 \\
+	
+\hline
+B03 &
+	Banks, Iain &
+	\textit{The state of the art}, Mark V. Ziesing, 1989 &
+	Quemener, Sonia &
+	\textit{Une rose pour l’Ecclésiaste}, J’ai lu, 1980\\
+	
+\hline
+C01 &
+	Banks, Iain &
+	\textit{The state of the art}, Mark V. Ziesing, 1989 &
+	Quemener, Sonia &
+	\textit{Une rose pour l’Ecclésiaste}, J’ai lu, 1980\\
+	
+\hline
+C02 &
+	Anderson, Poul &
+	\textit{Goat Song}, Mercury press, 1972 &
+	Brèque, Jean-Daniel &
+	«\,Le chant du barde\,», in \textit{Le chant du barde}, les meilleurs récits de Poul Anderson, Le Bélial, 2001 \\
+	
+\hline
+C03 &
+	Le Guin, Ursula K &
+	\textit{Always Coming Home}, Harper \& Row, 1985 &
+	Reinharez, Isabelle &
+	\textit{La vallée de l’éternel retour}, Mnémos, 2019 \\
+	
+\hline
+C04 &
+	Orwell, Georges &
+	\textit{1984}, Secker and Warburg, 1949 &
+	Audiberti, Amélie &
+	1984, Gallimard, 1950 \\
+	
+\hline 
+C06 & 
+	Mayer, Bernadette &
+	\textit{Utopia}, United artists books, 1984 &
+	Caro, Jean-François &
+	\textit{Utopia}, Future, 2016 \\
+	
+
+\hline 
+C07 &
+	Damasio, Alain &
+	\textit{La horde du contrevent}, La volte, 2004 &&\\
+	
+\hline 
+C08 & 
+	Acker, Kathy &
+	\textit{Empire of the senseless}, Grove press, 1988 &&\\
+	
+\hline
+C09 &
+	Panchard, Georges &
+	«\,Stellarum nox\,», in \textit{Les horizons divergents}, Le livre de poche, 1999 &&\\
+	
+\hline 
+C10 &
+	Minard, Céline &
+	\textit{Le dernier monde}, Denoël, 2007 &&\\
+	
+\hline 
+C11 &
+	Lafferty, Raphaël A &
+	\textit{Space chantey}, Ace books, 1968 &
+	Perrin, Mimi &
+	\textit{Les chants de l’espace}, Opta, 1974 \\
+	
+\hline
+D01 &
+	Zelazny, Roger &
+	\textit{The graveyard earth}, Ace Books, 1964 & 
+	Deutsch, Michel &
+	«\,Le coeur funéraire\,», in Une rose pour l’Ecclésiaste, J’ai lu, 1980\\
+	
+\hline 
+D03 &
+	Cixin, Liu &
+	 \begin{CJK}{UTF8}{min}
+	死神永生
+    \end{CJK}, Chongqing Press, 2010 &
+	Gaffric, Gwennaël &
+	\textit{La mort immortelle}, Actes Sud, 2018 \\
+	
+\hline
+D04 &
+	Anderson, Poul &
+	\textit{Goat Song}, Mercury press, 1972 &
+	Brèque, Jean-Daniel &
+	«\,Le chant du barde\,», in \textit{Le chant du barde}, les meilleurs récits de Poul Anderson, Le Bélial, 2001 \\
+		
+\hline
+D05
+	Mayer, Bernadette &
+	\textit{Utopia}, United artists books, 1984 & 
+	Caro, Jean-François &
+	\textit{Utopia}, Future, 2016 \\
+	
+\hline
+D06 &
+	Fontenay, Charles &
+	\textit{The silk and the song}, Mercury Press, 1956 &
+	Durand, Roger &
+	\textit{La soie et la chanson}, Opta, 1957 \\
+	
+	
+\hline
+E01 &
+	Jemesin, Nora K &
+	\textit{The fifth season}, Orbit, 2015 &
+	Charrier, Michelle &
+	\textit{La cinquième saison}, J’ai Lu, 2017 \\
+	
+\hline 
+E02 &
+	Butler, Octavia E &
+	\textit{Parable of the sower}, Four walls eight windows, 1993 &
+	Rouard, Philippe &
+	\textit{La parabole du semeur}, J’ai lu, 1995 \\
+	
+\hline 
+E03 &
+	Nearing, Homer &
+	\textit{The Poetry Machine}, Mercury Press, 1950 & &
+	«\,La machine à poésie\,», in \textit{La Grande anthologie de la science fiction}, Le livre de poche, 1974 \\
+
+\hline
+E04 &
+	Herbert, Frank &
+	\textit{Dune}, Chilton books, 1965 &
+	Demuth, Michel &
+	\textit{Dune}, Robert Laffont, 1970 \\
+	
+\hline 
+E05 &
+	Cixin, Liu &
+	\begin{CJK}{UTF8}{min}
+	黑暗森林, Chongqing Press, 2008
+	\end{CJK} &
+	Gaffric, Gwennaël &
+	\textit{La forêt sombre}, Actes Sud, 2017 \\
+	
+\hline
+E06 &
+	Sturgeon, Theodore &
+	«\,A Saucer of Loneliness\,» dans \textit{Galaxy Science Fiction} n. 27, 1953 &
+	Straschitz, Frank &
+	\textit{Le disque de solitude}, Nuit et jour, 1956\\
+	
+
+\hline 
+E07 &
+	Wittig, Monique &
+	\textit{Les guérillères}, Éditions de Minuit, 1969 &&\\
+	
+\hline 
+E08 &
+	Heinlein, Robert &
+	\textit{The Green Hills of Earth}, 1947 &
+	Billon, Pierre &
+	«\,Les Vertes Collines De La Terre\,», dans Histoire du Futur, Opta, 1967 \\
+	
+\hline 
+E09 &
+	Wolfe, Gene &
+	\textit{The Death of Doctor Island}, Random House, 1973 &
+	Planchat, Henry-Luc &
+	«\,La Mort du Docteur Ile\,», dans \textit{L’île du Docteur Mort et autres histoires}, Robert Laffont, 1980\\
+	
+\hline
+E10 &
+	Silverberg, Robert &
+	\textit{Road to Nightfall}, Fantastic Universe 1953 &
+	Hupp, Philippe &
+	«\,Le Chemin de la Nuit\,», \textit{Histoires de Survivants}, Le Livre de Poche, 1983\\
+	
+\hline
+E11 &
+	Fontenay, Charles &
+	\textit{The Silk and the Song}, Mercury press, 1956 &
+	Durand, Roger &
+	\textit{La soie et la chanson}, Opta, 1957 \\
+	
+\hline
+E12 &
+	Walther, Daniel &
+	\textit{Est-ce moi qui blasphème ton nom, seigneur ?}, Opta, 1973 &\\
+	
+\hline 
+F01 &
+	Wittig, Monique &
+	\textit{Les guérillères}, Éditions de Minuit, 1969 & \\
+	
+
+\hline
+F02 &
+	Matheson, Richard &
+	\textit{Dance of the Dead}, Ballantine Books, 1961 &
+	Martin, Bruno &
+	\textit{Danse Macabre}, Opta, 1983 \\
+	
+\hline
+F03 &
+	Orwell, Georges &
+	\textit{1984}, Secker and Warburg, 1949 &
+	Audiberti, Amélie &
+	\textit{1984}, Gallimard, 1950 \\
+	
+\hline 
+H01 &
+	Le Guin, Ursula K &
+	\textit{Always Coming Home}, Harper & Row, 1985
+	Reinharez, Isabelle &
+	\textit{La vallée de l’éternel} retour, Mnémos, 2019 \\
+	
+\hline 
+H02 &
+	Fontenay, Charles &
+	\textit{The Silk and the Song}, Mercury press, 1956 &
+	Durand, Roger &
+	\textit{La soie et la chanson}, Opta, 1957 \\
+	
+\hline
+I01 &
+	Nasir, Jamil &
+	\textit{Tower of dreams}, Spectra, 1999 &
+	Haas, Dominique &
+	\textit{La tour des rèves}, Pocket, 2001 \\
+	
+\hline
+I02 &
+	Ayerdhal &
+	\textit{Parleur ou les Chroniques d’un rêve enclavé}, J’ai Lu, 1997 &\\
+	
+\hline
+I03 &
+	Delany, Samuel R &
+	\textit{Babel 17}, Ace Books, 1966 &
+	Perrin, Mimi &
+	\textit{Babel 17}, Calmann-Lévy, 1973 \\
+	
+\hline
+I04 &
+	Adaf, Shimon &
+	\textit{Like a coin entrusted in faith}, Apex book company, 2015 &&\\
+	
+\hline
+I05 &
+	Herbert, Frank &
+	«\,The heaven makers\,», dans \textit{Amazing Stories}, Experimenter Publishing, 1967 &\\
+	
+\hline
+I06 &
+	Le Guin, Ursula K &
+	\textit{Always Coming Home}, Harper \& Row, 1985 &
+	Reinharez, Isabelle &
+	\textit{La vallée de l’éternel retour}, Mnémos, 2019 \\
+	
+\hline
+I07 &
+	Butler, Octavia &
+	\textit{Parable of the talents}, Seven stories press, 1998 &
+	Tate, Iawa &
+	\textit{La parabole des talents}, Au diable vauvert, 2001 \\
+	
+\hline
+J01 &
+	Sturgeon, Theodore &
+	\textit{The World Well Lost}, Abelard Press, 1953 &
+	Martin, Bruno &
+	«\,Monde interdit\,», dans \textit{Les songes superbes }de Theodore Sturgeon, Casterman, 1978\\
+	
+\hline 
+J02 &
+	Cixin, Liu &
+	\begin{CJK}{UTF8}{min}
+	死神永生
+	\end{CJK} , Chongqing Press, 2010 &
+	Gaffric, Gwennaël &
+	\textit{La mort immortelle}, Actes Sud, 2018 \\
+	
+\hline 
+J03 &
+	Delany, Samuel R &
+	\textit{The Einstein Intersection}, Ace Books, 1967 &&
+	\textit{L’intersection Einstein}, Opta, 1977\\
+	
+\hline 
+J04 &
+	Dunyach, Jean-Claude &
+	\textit{Étoiles mortes}, J’ai lu, 2000 &\\
+	
+\hline 
+J05 &
+	Banks, Iain &
+	\textit{Descendant, in The state of the art}, Mark V. Ziesing, 1989 &
+	Quemener, Sonia &
+	«\,Descente\,», dans \textit{L’essence de l’art}, Le bélial, 2010\\
+	
+\hline 
+J06 &
+	Herbert, Frank &
+	\textit{Dune}, Chilton books, 1965 &
+	Demuth, Michel &
+	\textit{Dune}, Robert Laffont, 1970 \\
+	
+\hline 
+J07 & 
+	Vonnegut, Kurt &
+	\textit{Welcome to the Monkey House}, Playboy enterprises, 1968 &
+	Polanis, Jacques &
+	\textit{Bienvenue au pavillon des singes}, Le Livre de Poche, 1978 \\
+	
+\hline 
+J08 &
+	Lafferty, Raphaël A &
+	\textit{Nor limestones islands}, Ace Books, 1971 &
+	Canet, Charles &
+	\textit{Ni les îles de calcaire qui volent dans le ciel}, Le Livre de Poche, 1984 \\
+	
+\hline 
+J09 & 
+	Minard, Céline &
+	\textit{Le dernier monde}, Denoël, 2007 & &\\
+
+\hline
+J10 & 
+	Heinlein, Robert &
+	\textit{The Green Hills of Earth}, The Saturday Evening Post, 1947 &
+	Billon, Pierre &
+	«\,Les Vertes Collines De La Terre\,», dans \textit{Histoire du Futur}, Opta, 1967\\
+	
+
+\hline 
+J11 &
+	Russ, Joanna &
+	The Female Man, Batam Books, 1975 &
+	Planchat, Henry-Luc &
+	\textit{L’autre moitié de l’homme}, Robert Laffont, 1977 \\
+	
+\end{supertabular}
+\end{verse01}
+
+%************************************************************
+
+
+\newpage
+\center
+\thispagestyle{empty}
+\textit{L'Agglossarium} a été mis en page avec \LaTeX\\ via l'éditeur de document Texmaker.\\ 
+
+\medbreak
+\medbreak
+Ont été utilisés comme \textit{package} :
+
+\{inputenc\} pour l'encodage des caractères.\\
+ \{babel\} pour la  typographie française.\\
+\{fontenc\} pour l'encodage des polices.\\
+\{xspace\} pour pour gérer les espaces.\\
+\{txfonts\} pour générer une polices pdf de qualité.\\
+\{verse\} pour pour écrire des verses.\\
+
+\medbreak\medbreak
+La commandes : 
+
+\{phicesure\} a été créée pour franciser\\  le système de césures du package \{verse\}.
+
+\medbreak\medbreak
+L'environnement  : 
+
+\{verse01\} a été créé pour plus de souplesse\\ sur la gestion des vers.
+
+\medbreak\medbreak
+PDF et code source disponible sur \\ 
+http://editionsburnaout.fr/
+
+\medbreak\medbreak
+ISBN : 9782493534026
+
+
+
+
+
+%************************************************************
+\end{document}

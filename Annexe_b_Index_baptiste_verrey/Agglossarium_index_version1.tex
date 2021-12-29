@@ -1,0 +1,763 @@
+\documentclass[1pt, onecolumn, oneside, a4paper] {book}
+\usepackage[utf8] {inputenc} % Encodage des caractères
+\usepackage[french] {babel} % typographie française
+\usepackage[T1] {fontenc} % encodage des polices
+\usepackage{xspace} % pour gérer les espaces 
+\usepackage{txfonts} % polices pdf de qualité
+\usepackage{verse}% pour écrire des verses
+\usepackage{listings}
+\usepackage{array,multirow,makecell}
+\usepackage{CJKutf8}
+\setcellgapes{1pt}
+\makegapedcells
+\usepackage{supertabular} % tableaux qui tiennent sur plusieurs pages
+
+\newenvironment{verse01}{
+\fontfamily{jkplos}\selectfont
+\vspace{10mm}
+
+
+}
+
+\newcommand\x{\\[\stanzaskip]} 
+
+
+
+\addtolength{\stanzaskip}{5pt} % rajoute 10 points
+
+
+
+%index
+\usepackage{makeidx}
+\makeindex
+
+%césure à la française
+\newlength{\phila}
+\newcommand\phicesure[2]{%
+\settowidth\phila{#1}\addtolength{\phila}{-\vindent}
+{#1}\verselinebreak\makebox[\phila][r]{[#2}}
+
+% mise en page
+\pagestyle{plain} %numérotation des pages en bas 
+\usepackage[inner=2cm, top =4cm, outer=2cm, bottom=4cm] {geometry} %regler les marges
+
+
+
+
+
+%en tête 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand\headrulewidth{0,2pt}
+\fancyhead[L]{{ANNEXE $\beta$ : Index relatif à l'Agglossarium}}
+\fancyhead[R]{{ page \thepage/\pageref{LastPage}}}
+
+%pied de page  
+\renewcommand\footrulewidth{0,2pt}
+\fancyfoot[C]{ \textbf{ Version 1.0}\\ \textit{ (Dernière compilation avec Texmaker le \today)}
+}
+\fancyfoot[R]{}
+
+\def\cache{\def\?##1{...}}
+\def\visible{\def\?##1{##1}}
+
+
+
+\begin{document}
+\begin{center}
+
+
+\thispagestyle{empty}
+{\fontsize{30}{48}\selectfont ANNEXE $\beta$ \\ 
+\vspace{8mm}
+\Large (V.1.0)\\ 
+\vspace{5mm}
+\Huge\fontfamily{jkplos}\selectfont
+{\textit{Index relatif\\ à l'Agglossarium}}}\\
+\vspace{15cm}
+\vspace{\fill}
+\end{center}
+%************************************************************
+\newpage
+
+\begin{verse01}
+
+
+
+
+\twocolumn
+\setlength{\parindent}{0pt}a-mour A08
+\\acier torturé  L38
+\\adolescent V04
+\\affamés A09
+\\aile, -s enflammées H02
+\\---, des mouettes qui déployaient leurs -s J06
+\\---de l’aigle Q04
+\\---, on entend leurs -s déployées E07
+\\air A07, A10, M01, N14, Q04
+\\---, dressé sur cheval d’ C02
+\\---, nos allures d’appel d’ S03
+\\---, il boit l’ I02
+\\---doux est un poison mortel M02
+\\---s’immobilise au dessus de la colline D04
+\\---qui n’est pas mesuré L06
+\\Albert C09
+\\algue J06, L35
+\\ami C08
+\\Ami Social N12
+\\ami, tout le monde a des -s C08
+\\amour D01, D03, E12, J01, J02, L28, O02, 0O4, O13, T06
+\\---volette et se pose D02
+\\anadrome C10
+\\anathème I01
+\\animal, -aux A14, E01
+\\annulez L20
+\\année A13, L35, T05
+\\---, le début et la fin de la danse de l’ L12
+\\---s sont escarpées R02
+\\anti-vie L03
+\\anéantissement A13
+\\appareil photo J05
+\\arbre L31, N14, P09, T07
+\\---, innombrables rangées d’ A10
+\\---, tout en haut de l’ B01
+\\arc-en-ciel L27
+\\archipels tourbillonnants C09
+\\ardeur au combat E07
+\\arnarchie O01
+\\artistes ordinaires Q04
+\\Aréthuse J09
+\\astronaute Q04
+\\Atlantide O05
+\\attention B03, U01
+\\attention perpétuelle O01
+\\au-devant U02
+\\aube L12, N12, U05
+\\audace L14
+\\automne O12
+\\avenir A03, B03, I07,
+\\---musèle ton impatience A15
+\\---, lourd passé sans L01
+\\avion A17
+\\avril, comme un jour d’ C04
+\\---, comme un soir d’ C05
+\\Banque mondiale C10
+\\Belvédère A11
+\\blanc A10, A11, C01, J06, J12, L03, L13, L19, Q04, U06
+\\blasphème E12, I01
+\\Bon-Augure J09
+\\bond B02, E08
+\\bord C02, L09, P01, U02,
+\\borogove L36
+\\bouche B02, D02, I02, M02, S01, S02, V04
+\\boules d’oreilles D05
+\\bourg-terre R02
+\\bourgeoisie N09
+\\bouyeure L36
+\\bruit J06
+\\brûle, brûler A04, J06, O04, T04
+\\bâillonnez B02
+\\cairn P04
+\\camper L19
+\\capillarité retrouvée C10
+\\Capitain’ Road-Storm P07
+\\carburant A09
+\\ceinture aérienne L07
+\\cendre, la richesse ne vaut rien lorsque tombe la - L08
+\\---, le charbon sous les A09
+\\---, les flocons de L03
+\\---, ne respirez pas la fine pluie de L19
+\\---, ses propres A04
+\\cerveau I02, P10
+\\changement A13, I07, L18, L23, Q03
+\\chanson, avec ses bribes de - A16
+\\chant E03, L17, L28, S05
+\\chante, celui qui meurt C03
+\\chantent, les rêveurs C03
+\\chaos extérieur A16
+\\charge statique I02
+\\chasseur - caché loin de l’oeil du D01
+\\chemin L14, L26, P04, R02, V02
+\\---s incertains des cieux E09
+\\chien, la Maison des -s D01
+\\---, le lieutenant et ses huit I03
+\\---, où les -s viennent mourir en rampant D01
+\\---, vieux E04
+\\chronique P07
+\\chute C01, J11, L22, U05
+\\choeur F02, T04
+\\ciel D04, F03, J06, P07, N11
+\\---sauvage A14
+\\---bleu la nuit D05
+\\---transparent D05
+\\---, cherchez le [obscurci] rétrograde dans le - du midi L11
+\\---, il n’a jamais déversé que de l’eau bleu J07
+\\---, la neige regagne le A11
+\\---, la voûte du - rappelle les hommes de l’espace à leur poste
+\\L15
+\\---est souillé O06
+\\---, le dernier grand flash va briller dans le P06
+\\---est pur dedans ton mur
+\\---, les prés et les clairières s’élevaient comme des chemins
+\\conduisant au L26
+\\---, mais tu ne peux tromper le P08
+\\---, partout sous le O06
+\\---, à la conquête du E08
+\\Cihuacoatl F01
+\\Index
+\\citadelle A07, I03
+\\collaboration E01
+\\colline D04, J10, L05, L07, L27, N05, N11, R02, T04
+\\colérisation L20
+\\combat C02, E07, E13, S04
+\\compagnons, tout le monde à des C08
+\\condensé d’une inspiration L19
+\\constellation U06
+\\contre C06, C07, C10, E01, Q03, S04, T08, U06
+\\cosmos N13
+\\couronne de plumes L26
+\\croque musique et croque bruit U02
+\\cycle des ans éternels A10
+\\câble L10
+\\coeur C05, C08, D01, D04, J01, J05, L08, L13, O08, O12
+\\---, nous portons un monde nouveau dans nos N09
+\\---, silence mon O02
+\\---, tordent les fibres de mon C04
+\\--- s’amollit M02
+\\---, mangeons nos N08
+\\danse, danser C09, L01, L12, L17, QO4, T05
+\\---est création A13
+\\---, danser la A13
+\\---, entendre la A13
+\\---, sur les places de A13
+\\diable A05, U02
+\\dictionnaire P03
+\\dimension L29
+\\---, avant de mesurer sa propre O13
+\\dissanguin L20
+\\diversité, embrasser la E02
+\\donjons de blizzard L03
+\\doré C10, E07
+\\---, astre S01
+\\---, garçons et filles à la peau N01
+\\début, au A09, R02
+\\---, depuis le A09
+\\défend, défendre B03, P10
+\\---, nous sommes la nature qui se N14
+\\désarmement L19
+\\désert C02
+\\---vert E07
+\\désir E03, S05, T05
+\\---infini E11
+\\---ardents du poète E03
+\\eau C10, J07, J15, L09, L22, N14, O04, R02, T05
+\\---, le drap gris de l’ A11
+\\---, un feu froid dans l’ P01
+\\---, l’araignée d’ V02
+\\enfant-soleil L12
+\\enfant A09, C06, L23, N14, O01, P07
+\\enfétichement nymphophobe et chastitute E03
+\\ennemi A09
+\\---est intérieur C01
+\\espace C09, L10, L15, N05, Q01,
+\\---était sa patrie L32
+\\---s intervalles U06
+\\espacements dorés E07
+\\espadon chinois aux oeufs dorés C10
+\\esprit C08, I04, L29, P05, R02, U01
+\\---s fourvoyés E05
+\\---s habiles capables de résoudre des problèmes E01
+\\Etat, à la mort va tout A06
+\\europe B03
+\\exposition P03
+\\extra-terrestres J08
+\\faibles A09, P07
+\\fantastique P07
+\\fantôme C02, D03, L01, L19, L24
+\\femme A07, A09, A11, J14, P01
+\\fenêtre A03, L27, P01
+\\feu A09, P01, V03
+\\---, cracheur de O02
+\\---, gemmes de C09
+\\---, je me souviens de la fumée de sel d’un J06
+\\---, me fait marcher à travers C08
+\\fibres de verre J04
+\\fiel amer N08
+\\fille N01, O11, P08
+\\---forte et belliqueuse E13
+\\---tant aimée E13
+\\---vaillante F01
+\\---violette J07
+\\filuant L36
+\\fin, à votre A09
+\\flacon F03
+\\flamme, armée d’une lance de C02
+\\---, avec sa garde de A16
+\\---, la noirceur d’une A16
+\\---, plein d’anciennes statues en L03
+\\flash P06
+\\fleur A13, C11, L28, N03
+\\---de locuste P08
+\\flot A13, C07, L22, V02
+\\---, suivons les A17
+\\flux C07, L09
+\\---, les sédiments s’écoulent librement en C10
+\\flûte L27
+\\fond A10, A17, L01, O03, P01
+\\fou L28, N03, N13
+\\---, il devaient être les plus C09
+\\---, nos flambants - volants L13
+\\foudre C09
+\\foule J07, V04
+\\fragile épée prophylactique A16
+\\frontière J13, L01
+\\fumée J06, L09
+\\futur P07
+\\---du public C06
+\\féroce J09
+\\galactique P07
+\\galaxie L19
+\\gauche A03, P04
+\\glace, glacée C09, E10, L01, L35
+\\gonfalon P04
+\\graine A13
+\\gratuit L19, P03
+\\gravité O05
+\\grondantes tuyères E08
+\\gvt C06
+\\géant E10
+\\gémissantes cohortes A10
+\\génie N12
+\\génération E R01
+\\habitants éphémères J04
+\\haine incandescente E01, N08, Q03
+\\Hall, Sam A05
+\\haut-fond D03, J02
+\\herbe L16, L35, T04
+\\herbes-cheveux C10
+\\hey H01
+\\hilsa C10
+\\hiver L03, L12, L28, V03
+\\---, c’est le blé pour l’ B02
+\\---, le déchaînement des N01
+\\---, s’est étendu l’ S03
+\\hiéroglyphes L19
+\\hommes C09, J04, J08, L15, L31, N05, S03
+\\horizon D06, L03, U05
+\\humains C08, H02, L19
+\\humanité E01
+\\hymne I04
+\\hérissons de ramoneurs N01
+\\héros de l’inutile C09
+\\idyllique A10
+\\impatience, musèle ton A15
+\\impulsion électro-magnétique B03
+\\industrie B03
+\\inexprimable solitude E06
+\\infini A03, C09, E08, E11, L10, O01
+\\ingénieuse blessure L19
+\\insecte multicolore L26
+\\interface J04
+\\intervalle Q04, U06
+\\intégration I07
+\\ion I02
+\\ivre U06
+\\jamais, A14, C06, C09, D04, J07, J08, J15, L03, L08, L11, N02
+\\---ne me demandez A15
+\\---, ça guérira B03
+\\jardin A11, C08
+\\---, nous ne voulons pas quitter le P02
+\\Jerry Clawson Q01
+\\jeu L22
+\\jour A13, A15, C04, C08, I03, J01, N12, O05, V04
+\\---, alors la nuit sera sans S01
+\\---, avant le lever du P06
+\\---, chaud le O04
+\\---, et je délire dans mes S05
+\\---, ils ne voient plus le E04
+\\---, le globe qui m’a donné le J10, N11
+\\---, vers le bassin de frai d’un nouveau U05
+\\journal B03
+\\jungle N10
+\\Jupiter N02
+\\labeur C06, N01
+\\lambel A07
+\\lamento philarmonique A12
+\\lancement D02
+\\langue L11, R01, V05
+\\---jamais apprise D04
+\\---s habiles capables de créer la collaboration E01
+\\---, ta poétesse ta - dévorera J14
+\\---, une vie dans toutes les L19
+\\lanterne L31
+\\larme C09, D01, L01, L16, O12
+\\---, l’empereur du royaume des E10
+\\laser B03
+\\liberté C01, O10
+\\libre E07, L38, V05
+\\logique migratoire A16
+\\loi I03, J14, N07,
+\\---absolue C11
+\\longtemps I05, L28, T05
+\\lubriques aventures E03
+\\luminifère P01
+\\lumière D05, L17, O07
+\\---sans illumination A16
+\\---victorieuse E05
+\\---, au dessus de nous les - s’évanouissent E08
+\\---, de - un pic est coiffé D04
+\\---, décrivant des cercles autour de la L12
+\\---s’enfuit D04
+\\---, plus vite que la C09
+\\lune A12
+\\---errante E09
+\\---tourne A13
+\\---, la nouvelle - est la nuit de la L12
+\\lutte, lutter L40, Q03, T08
+\\main A03, C09, D05, I02, L25, N12, P04, Q04, T01, T04, V04
+\\---s habiles capables de fabriquer des choses E01
+\\---ton poète tes -s dévorera J14
+\\maison A13, E13, F01, L03, L27, L33, P01, T04
+\\---des Chiens D01
+\\---du bourg de la terre A03
+\\---, «elle» tient sa - si propre L19
+\\---, comme une - non bâtie A09
+\\---, l’idée d’une A09
+\\---, les villes survivent aux J04
+\\---, partout au fond de la mer il y a des P01
+\\major C10
+\\mammifère bâtisseur A15
+\\maître L11, S04
+\\membrure L38
+\\mer L28, P01
+\\---, nous étions les sables et les côtes de nos A09
+\\mescaline A12
+\\monde C08, C10, F03, I07, J09, N09, U04
+\\---salace n’est que transitoire V01
+\\---souriant ignorait les geignards L13
+\\---, d’or le D04
+\\---, l’immense amour du E12
+\\---, la grande ceinture du L26
+\\---est mort P06
+\\---, le paradis est le foyer de tout le L23
+\\---, nous accueillons la mort du N04
+\\---, nous approchions de notre A09
+\\---, nous sommes vraiment la lie de ce L21
+\\---, pour entrer dans notre A09
+\\---, se sont joints à nous pour transformer le S02
+\\---, toi qui a accompli ton labeur en ce N01
+\\---, à dix lieues au bord du vaste C02
+\\monstre L19, M03
+\\montagne A03, A13, L19, L26, L31, L35, L39, T05
+\\Montée du Hayet I03
+\\mort, -e A09, A10, D01, E07, J01, L01, L09, L30, N04, N08,
+\\O02, O12, O13, P01, P03, P06, P07, T02
+\\---, racoleuse de la J07
+\\---, un siècle est L04
+\\mot, ils partent silencieux et reviennent avec des Q04
+\\mouvement U02, V04
+\\mur A03, A09, F03, L22
+\\murmure S05
+\\musique L19, I05
+\\---, aux pâturages de la A14
+\\---, ni même vraiment cherché à les reproduire en N03
+\\myriade U06
+\\mystère D04
+\\mythe vénérable de la technologie J08
+\\méduses lubrifées C10
+\\mégalithes intemporels J08
+\\mélodie inepte A16
+\\mélomanie N03
+\\mémoire des endroits habités J04
+\\---, le butin de leur C09
+\\navire A17
+\\nobles A07
+\\noir A09, J09, L19, P06, U02
+\\---es lesbiennes C01
+\\---s ténèbres de la cave C08
+\\---jumeau replié sur le sol s’étouffe I02
+\\---, ma hure -e et courte
+\\---, sa gueule C09
+\\---, à la croix S01
+\\nord A03, B03, C10, L12, R02
+\\notes obscures A16
+\\nouvelle C01, L12, L23, Q03
+\\---, j’entendrai haut et clair la D04
+\\novembre, soleil de A10
+\\nuage A03, J10, N11
+\\---, les rides des L09
+\\nuit C06, P07, S01
+\\---, coule la O04
+\\---, dans la forêt de la T01
+\\---, en dormant chaque D05
+\\---, j’écoute dans la O01
+\\---, la pensée native de la P03
+\\---, la peur hante la D04
+\\---, la prime peur de la D04
+\\---, labyrinthe de la L01
+\\---, ne le suit pas quand vient la H02
+\\---, profond comme la O01
+\\nullepart L19
+\\néant, la fleur dans le - va tomber engloutie C11
+\\océan, couvrir les C10
+\\oiseau L26, V03
+\\---de rêve O06
+\\---rôdeur O06
+\\---x de jais immobiles E07
+\\---, comme font les D02
+\\---x fous de la guerre L28
+\\ombre C02, D05, I02
+\\---s sous les pins J06
+\\---, contenir des L40
+\\---, son frère d’ I02
+\\orage A06
+\\orgie, le goût de l’ I01
+\\oriflamme A12
+\\ouest A03, L12, O10, R02
+\\overdose P06
+\\paix A08, E04, O11
+\\paradis L23
+\\passé A03, L01, L39
+\\---est un gros ballon L24
+\\---, le mur de l’immémoriable L22
+\\patron U04
+\\---, tue un tango gagne un B03
+\\pauvre A06, C09
+\\paysage perdu L01
+\\phénix A04, E07
+\\pierre A13, J04, L01, L08, L35, T07, U02
+\\plage J06
+\\---de verre L02
+\\---de sable aussi grise qu’une joue morte L09
+\\plaisir L13, N03, Q04, T02
+\\planète B03, C09, L01, L07, O05
+\\pluie A03
+\\---, fraîche la O04
+\\---tombe pour s’élever R02
+\\---, un jour de C08
+\\plumes blanches A11
+\\poitrine creusée I02
+\\poitrines mamellées E07
+\\polarisé I02
+\\possible, vallée des -s A03
+\\potentat A06
+\\poussière L35, N01, O05, U02
+\\---, nous avons essayé tous les grains de - tourbillonnant dans
+\\l’espace N05
+\\prince A06, A07
+\\printemps, apporte plus d’oubli que m’on - n’oublia O12
+\\---, au feu du V03
+\\---, quand je vois le - revenir M02
+\\---, tu as le visage du S03
+\\produits dérivés B03
+\\progrès J07
+\\prélat A06
+\\présent, -e J02, J11, L19, P01, T03
+\\puissance A06
+\\pylône I02
+\\Rabelaisiens L13
+\\radiation L10
+\\rayon 013
+\\reine-des-prés T06
+\\renaître A04
+\\riche A06
+\\rire C06
+\\---et chagrin dansent enlacés C09
+\\---, esclave de ce C08
+\\rive O04
+\\robot L20
+\\roi A07
+\\roto-moteur F02
+\\rotor P04
+\\rouge, menace B03
+\\ruine N09
+\\réalité L29
+\\réunion L17, L19
+\\révoltés aux cheveux longs L30
+\\révolution E07
+\\---, l’axe oblique de la L12
+\\rêve sans espoir C04
+\\---secret C06
+\\---s de cristal A10
+\\---brumeux L03
+\\---, chante pour moi tes S05
+\\---, cueillie dans le - des dormeurs L03
+\\---, le temps se rit des C09
+\\---, les -s qu’ils éveillent C04
+\\---, lutter avec des L40
+\\---, une armée de C02
+\\Rû Social N12
+\\saison, au fond de mes A10
+\\---, avant les E01
+\\---, dans l’excès qu’engendre la L03
+\\---revient toujours L11
+\\---, tout change en T05
+\\sang photonique U05
+\\sas L38
+\\saut, sauter B02, N09, O02
+\\scaphandre J05, O05
+\\sceptique J08
+\\sciure sableuse I02
+\\seigneur A06, E12, J03, O02
+\\sel A07, J06, L11
+\\septentrion J08
+\\silence O02
+\\---, prends garde au brusque T05
+\\---, souffle sur mois tes S05
+\\silencieux, -euse A09, D04, J05, Q04
+\\siècle L32
+\\---, la fin du L04
+\\---, nègre est un L04
+\\smouale L36
+\\soleil A10, L01, M02, P01
+\\---de nos émotions C08
+\\---fuit A12
+\\---tourne A13
+\\---qui épouvante et ravi S06
+\\---assassin U05
+\\---, alors la nuit sera S01
+\\---, c’est moi chaud D05
+\\---, des phares qui sont des C09
+\\---, ils l’ont confié au A06I03
+\\---, la maison de ta mère le E13, F01
+\\---est un reflet L01
+\\---t’as suivie T06
+\\---, les armes couchées au E07
+\\---, les deux - à l’horizon se lèvent D06
+\\---, ne crains plus ni la chaleur du N01
+\\---, plus clair que mille P06
+\\---vient enfin L01
+\\---, sous la musique d’un I05
+\\solitaire E06
+\\sombre D04, I02, L09, O02, V04
+\\sorgho L21
+\\souffle, souffler D04, L24, M01, N10, Q01, Q04, S05, U02
+\\sourire C08, L01
+\\souvenir A10, L01
+\\---communs des hommes des cités J04
+\\souverain C08, P07
+\\spectre L19, V04
+\\sphère P07
+\\spire ouverte A13
+\\stalactite L03
+\\statue D05, L03
+\\strates bleues L19
+\\structure, au coeur de la L08
+\\sud A03, C10, L12, P04, R02
+\\symbiose I07
+\\sénescence L03
+\\Tachas Touchas L27
+\\Tacot ardent N12
+\\tambour L27, N12
+\\tambourin U02
+\\taureau héliaque U05
+\\Tchernobyl B03
+\\temps splendide D05
+\\temps, de belles empreintes gravées dans le, D03
+\\---est la douceur même F03
+\\---, le bel oiseau du V03
+\\---, mes poumons goutent l’air du M01
+\\---, mon amour recouvre son corps de D03
+\\---, passe le E04
+\\---figé J02
+\\terre, au dernier jo-our(trille) de J11
+\\---, d’aucuns retrouvèrent la route de la P07
+\\---molle ils dorment E04
+\\---, je ne crois pas que la - est creuse J08
+\\---te roule T07
+\\---tourne A13
+\\---, les mouettes aux bout de la J06
+\\---, les vertes collines de la J10, N05, N11
+\\---, même jusqu’aux limites de la L26
+\\---, notre père E01
+\\---, s’enfoncer dans la L03
+\\thermique P04
+\\toison chantante A14
+\\tonnerre D04
+\\transcendence expresse L29
+\\travaillistes B03
+\\triomphe C01
+\\Tripoli B03
+\\tuyère E08
+\\ultramarine A12
+\\univers de sang A14
+\\---, au bout de l’ E08
+\\Utopie-ville L13
+\\vainqueur A06
+\\vaisseau L38, Q01, V04
+\\vallée, la danse est dans la A13
+\\---, les longues heures du soir rampent au fond des L01
+\\---, pour que les eaux se déversent dans les C10
+\\valupinae E01
+\\vent furtif N13
+\\---salé C09
+\\---, dans le bruit du J06
+\\--- qui venait dans les pins J06
+\\---me gèle le... J13
+\\---, nous sommes fait de l’étoffe dont sont tissés les N13
+\\verssins L36
+\\vert, -e E07, E09, J06, L07, L16, L19, L38, N05, N11, P08
+\\verve virtuose C07
+\\victoire A02
+\\vie intelligente E01
+\\---, pisser une fois pour toutes ma - d’azur J07
+\\vif L13, N03, N12
+\\ville J04, N09, O10, U04
+\\---est toute vile O06
+\\---, partout sous l’eau existe des P01
+\\---, simple est la P05
+\\virevolte L05
+\\visionnaire L08
+\\vitrine J04
+\\vivant, -e A02, E06, J11, L01, N13, N14, O12
+\\voie I06, J04, L16, L38, Q04
+\\---, qui imprègne cette L03
+\\voile A12, C09
+\\vol, voler J08, J14, L05, L28, L40, O05, O06, R02, V03
+\\---spirituel D03
+\\volcan C10
+\\volubilis L2
+\\voyage L19, L28
+\\voyageur L30
+\\Vénus N10
+\\vétille L40
+\\yeux A07, B02, C09, D03, I02, J10, L13, L22, N11
+\\--- de givre L11
+\\--- du puma Q04
+\\zizo H02
+\\zombie L13
+\\zénith E09
+\\âme P01, P06, T05
+\\---s errantes E05
+\\---s vivantes E06
+\\---, en ce cercueil de l’ E12
+\\écharpe vaporeuse L07
+\\éclair V04
+\\éclaireur P04
+\\écrans protecteurs L10
+\\épine vrillée I02
+\\Éros J09
+\\étincelle I02, R02
+\\étoile
+\\---polaire A16
+\\---qui flamboie E11
+\\---, clair d’ A13
+\\---, flots d’ A13
+\\---, la nuit glacée des C09
+\\---, le soleil et les autres A13
+\\---s sont des fantômes D03
+\\---, nous avons mangé sous les L34
+\\---, on m’a offert une O09
+\\---, partis pour les C09
+\\---, échanges qui sont la seule voie des J04
+\\été L12, M02
+\\Éveil/Rotation I02
+\\îles de calcaire qui volent dans le ciel J08
+\\---qui sont des planètes C09
+\\---sur lui seule close C09
+\\îlot A17
+\end{verse01}
+
+
+\end{document}

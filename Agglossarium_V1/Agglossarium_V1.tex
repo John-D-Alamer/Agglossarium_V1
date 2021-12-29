@@ -1,0 +1,4100 @@
+\documentclass[1pt, onecolumn, oneside, a4paper] {book}
+\usepackage[utf8] {inputenc} % Encodage des caractères
+\usepackage[french] {babel} % typographie française
+\usepackage[T1] {fontenc} % encodage des polices
+\usepackage{xspace} % pour gérer les espaces 
+\usepackage{txfonts} % polices pdf de qualité
+\usepackage{verse}% pour écrire des verses
+\usepackage{listings}
+
+
+
+\newcommand\x{\\[\stanzaskip]} 
+
+\newenvironment{verse01}{
+\fontfamily{jkplos}\selectfont
+\vspace{10mm}
+\large
+\leftskip=4.5em
+}
+
+\addtolength{\stanzaskip}{5pt} % rajoute 10 points
+
+\poemlines{4}
+\setlength{\vrightskip}{-4,5em}
+\verselinenumbersleft
+
+
+%index
+\usepackage{makeidx}
+\makeindex
+
+%césure à la française
+\newlength{\phila}
+\newcommand\phicesure[2]{%
+\settowidth\phila{#1}\addtolength{\phila}{-\vindent}
+{#1}\verselinebreak\makebox[\phila][r]{[#2}}
+
+% mise en page
+\pagestyle{plain} %numérotation des pages en bas 
+\usepackage[inner=4cm, top =4cm, outer=3cm, bottom=4cm] {geometry} %regler les marges
+
+
+
+
+
+%en tête 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand\headrulewidth{0,2pt}
+\fancyhead[L]{{AGGLOSSARIUM }}
+\fancyhead[R]{{ page \thepage/\pageref{LastPage}}}
+
+%pied de page  
+\renewcommand\footrulewidth{0,2pt}
+\fancyfoot[C]{ \textbf{ Version 1.0}\\ \textit{ (dernière compilation : \today)}
+}
+\fancyfoot[R]{}
+
+\def\cache{\def\?##1{...}}
+\def\visible{\def\?##1{##1}}
+
+
+
+\begin{document}
+\begin{center}
+\thispagestyle{empty}
+{\fontsize{30}{48}\selectfont AGGLOSSARIUM\\ 
+\vspace{8mm}
+\Large (version 1)\\ 
+\vspace{5mm}
+\Huge\fontfamily{jkplos}\selectfont
+{\textit{Chansons \& poèmes\\ de futurs impatients}}}\\
+\vspace{15cm}
+\vspace{\fill}
+\end{center}
+%************************************************************
+\newpage
+%************************************************************
+\newpage
+\thispagestyle{empty}
+\thispagestyle{empty}
+\begin{center}
+	
+	{\fontsize{30}{48}\selectfont AGGLOSSARIUM\\ 
+	 \vspace{8mm}}
+     \vspace{14cm}					
+	\Large{publié avec \\
+ 	\textsc\textbf{{Éditions Burn\textasciitilde Août}\\ 
+	\& \LaTeX}}			
+	\vspace{1cm}
+	
+\normalsize Tous droits de traduction autorisés pour tous pays. 
+\\La reproduction, même partielle, sous quelque forme que ce soit, y compris la photographie, photocopie, reproduction numérique sous toutes ses formes est autorisée et encouragée.\\ Toute reproduction, même fragmentaire, non expressément autorisée ne constitue en rien une contrefaçon mais une versions différente dont nous soutenons la diffusion et la propagation.
+\end{center}
+%************************************************************
+\newpage
+\thispagestyle{empty}
+\vspace{100mm}
+\begin{flushright}
+\large\fontfamily{jkplos}\selectfont{\textit{
+En certaines âmes vivantes réside\\
+Une inexprimable solitude\\
+Si grande qu’elle doit être partagée\\
+De même que les êtres moindres\\
+Partagent leur présence.\x}}
+\large\fontfamily{jkplos}\selectfont{\textit{
+Alors, on jette une bouteille\\ 
+\lbrack alamer, \\et une partie de notre solitude s’en va avec elle.\x}}
+
+
+\end{flushright}
+
+%************************************************************
+\newpage
+\thispagestyle{empty}
+\strut
+\newpage
+
+%************************************************************
+
+
+
+
+
+
+%************************************************************
+\part{1}
+
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{01}$}
+
+\settowidth{\versewidth}
+ {AAAAAEEEEEEEEEIIIIIIIIIOOOOOOOOOUUUUU,}
+% début du poème
+
+\begin{verse}
+\begin{verse01}
+\hspace{-0.7em}AAAAAAAAAEIIIIIIIIIIIIIIIIIOUUUUUUUUU,\\
+\hspace{-0.7em}AAAAAAAAEEEIIIIIIIIIIIIIIIOOOUUUUUUUU,\\
+\hspace{-0.7em}AAAAAAAEEEEEIIIIIIIIIIIIIOOOOOUUUUUUU,\\
+\hspace{-0.7em}AAAAAAEEEEEEEIIIIIIIIIIIOOOOOOOUUUUUU,\\
+\hspace{-0.7em}AAAAAEEEEEEEEEIIIIIIIIIOOOOOOOOOUUUUU,\\
+\hspace{-0.7em}AAAAEEEEEEEEEEEIIIIIIIOOOOOOOOOOOUUUU,\\
+\hspace{-0.7em}AAAEEEEEEEEEEEEEIIIIIOOOOOOOOOOOOOUUU,\\
+\hspace{-0.7em}AAEEEEEEEEEEEEEEEIIIOOOOOOOOOOOOOOOUU,\\
+\hspace{-0.7em}AEEEEEEEEEEEEEEEEEIOOOOOOOOOOOOOOOOOU.
+\nocite{A01}
+% fin du poème
+\end{verse01}
+\end{verse}
+
+%************************************************************
+
+\newpage
+
+\section*{\Huge$\textrm{A}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{02}$}
+\begin{verse}
+\begin{verse01}
+À ceux qui ont survécu : Respirez.\\
+Voilà. Encore une fois. Bien.\\
+Vous êtes doués. Et même si vous ne l’êtes pas,\\
+vous êtes vivants. C’est une victoire. \\
+% fin du poème
+\end{verse01}
+\end{verse}
+
+%************************************************************
+
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{03}$}
+\begin{verse}
+\begin{verse01}
+Adobe, argile bleue, serpentine, obsidienne : \\
+sols et murs \\
+des maisons du bourg de la terre.\\
+Nuage, pluie, vent, air :\\
+fenêtres et toits \\
+des maisons du bourg de la terre. \\
+Sous les planchers, sous les caves, \\
+par-dessus les toits, par-dessus les cheminées, \\
+à gauche de la main droite, \\
+à droite de la main gauche,\\
+au nord de l'avenir, au sud du passé, \\
+plus tôt que l'est, plus tard que l'ouest, \\
+hors les murs : \\
+l'infini, \\
+la nature, \\
+les montagnes et les fleuves de l'existence,\\
+la vallée des possibles.\\
+% fin du poème
+\end{verse01}
+\end{verse}
+
+%************************************************************
+
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{04}$}
+
+% début du poème
+\begin{verse}
+\begin{verse01}
+Afin de renaître \\
+De ses propres cendres, \\
+Un phénix \\
+Se doit \\
+D’abord \\
+De brûler. \\
+% fin du poème
+\end{verse01}
+\end{verse}
+
+%************************************************************
+
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{05}$}
+% début du poème
+
+\begin{verse}
+\begin{verse01}
+Ah ! mon nom, c’est Sam Hall, c’est Sam Hall.\\
+Oui, mon nom c’est Sam Hall, c’est Sam Hall,\\
+ Et je vous hais, tous autant que vous êtes. \\
+Oui, je vous hais, tous autant que vous êtes ! \\
+Que le diable vous emporte !\\
+% fin du poème
+\end{verse01}
+\end{verse}
+
+%************************************************************
+
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{06}$}
+% début du poème
+\begin{verse}
+\begin{verse01}
+A la mort va tout État,\\
+Princes, Prélats et Potentats,\\
+Riches et pauvres de toutes conditions.\x
+
+Elle prend le chevalier au tournoi\\
+Armé du heaume et de Vécu.\\
+De toute mêlée, c’est le vainqueur.\x
+
+Puissant tyran impitoyable,\\
+Elle prend l’enfançon mignelet\\
+Sur le sein embué de sa mère.\x
+
+Elle prend le compaing dans l’orage,\\
+Le capitaine enfermé dans la tour,\\
+La damoiselle en sa beauté.\x
+
+Point n’épargne seigneur pour sa puissance\\
+Ni clerc pour son intelligence.\\
+Oncques n’échappe à son funeste trait.\\
+TIMOR MORTIS CONTURBAT ME. \x
+% fin du poème
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{07}$}
+% début du poème
+\begin{verse}
+\begin{verse01}
+Allez trime et sue et paie la gabelle \\
+Pour ton prince ton roi et ta citadelle \\
+Tu es laid tu pues et tu pisses le sel \\
+Mais ton prince ton roi chient dans la flanelle \\
+Ta masure est moche et tes gosses hideux \\
+Et ta femme fait peur à tous les lépreux \\
+Tu t’habilles d’un sac et le sac est affreux \\
+Mais c’est rien crois-moi comparé à tes yeux \\
+Allez tremble et gèle et paie la gabelle \\
+Pour les nobles le Dogme et la Citadelle \\
+Tu es loque tu pues et tu fais dans ton sel \\
+Mais le Dogme les nobles ont de fiers lambels \x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{08}$}
+% début du poème
+\begin{verse}
+\begin{verse01}
+A-mour sa-cré de la Sci-en-ence,\\
+Tu gui-de-ras seul nos es-prits \\
+Toi seul nous don-nes l’es-pé-ra n-ce \\
+De la Paix en un mon-d’-uni \\
+De la Paix en un mon-ond’uni… \x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{09}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{09}$}% début du poème
+\vspace{-0.5em}
+\begin{verse}
+\begin{verse01}
+Au début quand le mot fut prononcé,\\
+au début quand le feu fut allumé,\\
+au début quand la maison fut bâtie,\\
+ \hspace*{0,5cm}nous étions parmi vous.\x
+
+Silencieux, comme un mot non prononcé,\\
+noirs, comme un feu pas allumé,\\
+informes, comme une maison non bâtie,\\
+\hspace*{0,5cm}nous étions parmi vous :\\
+\hspace*{1cm}la femme vendue,\\
+\hspace*{1cm}l'ennemi asservi.\\
+Nous étions parmi vous, nous approchions,\\
+\hspace*{0,5cm}nous approchions du monde.\\
+À votre époque quand tous les mots étaient écrits,\\
+à votre époque quand tout était carburant,\\
+à votre époque quand les maisons cachaient le sol,\\
+\hspace*{0,5cm}nous étions parmi vous.\\
+Silencieux, comme un mot chuchoté,\\
+ternes, comme le charbon sous les cendres,\\
+sans substance, comme l'idée d'une maison,\\
+ \hspace*{0,5cm}nous étions parmi vous :\\
+ \hspace*{1cm}les affamés,\\
+ \hspace*{1cm}les faibles,\\
+ \hspace*{0,5cm}dans votre monde, nous approchions,\\
+  \hspace*{0,5cm}nous approchions de notre monde.\\
+À votre fin quand les mots furent oubliés,\\
+à votre fin quand les feux furent consumés,\\
+à votre fin quand les murs s'écroulèrent,\\
+ \hspace*{0,5cm}nous étions parmi vous :\\
+ \hspace*{1cm}les enfants,\\
+ \hspace*{1cm}vos enfants,\\
+ \hspace*{0,5cm}mourant votre mort pour nous approcher,\\
+ \hspace*{0,5cm}pour entrer dans notre monde, pour naître.\\
+Nous étions les sables des côtes de vos mers,\\
+les dalles de vos foyers. Vous ne nous connaissiez pas.\\
+Nous étions les mots que vous ne saviez prononcer.\\
+Ô nos pères et nos mères !\\
+Nous avons toujours été vos enfants.\\
+Depuis le début, depuis le début,\\
+\hspace*{0,5cm}nous sommes vos enfants.\x
+\end{verse01}   
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{10}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{10}$}% début du poème
+\begin{verse}
+\begin{verse01}
+Au fond de mes saisons je vois venir novembre,\\
+et le cycle des ans éternel, idyllique,\\
+termine ici pourtant sa ligne asymptotique.\\
+Mes rêves de cristal passent sous les arceaux\\
+d’innombrables rangées d’arbres au blanc manteau,\\
+où les pas foulent et froissent les feuilles mortes\\
+crissant tout bas de peur. Gémissantes cohortes,\\
+vous seules et le vent je ne cesse d’entendre.\\
+Je demande à l’air froid, au soleil de novembre :\\
+Dites-moi donc le mot qui m’ouvrira les portes.\\
+Le vent répond : « Partir »,\\
+le soleil : « Souvenir. »\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{11}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{11}$}% début du poème
+\begin{verse}
+\begin{verse01}
+Au jardin Belvédère, à Vienne\\
+des plumes blanches s'amoncellent, se gèlent\\
+sur le drap gris de l'eau \\
+s'envolent \\
+la neige regagne le ciel\x
+Alors, il rencontra une femme \x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{12}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{12}$}% début du poème
+\begin{verse}
+\begin{verse01}
+Au loin, le Mucem somnole sous une lueur ultramarine.\\
+\phicesure{Une musulmane illumine l’esplanade de son voile,}{déployé oriflamme.}\\
+Un lamento philharmonique moissonne les dalles.\\
+Mélusine sniffe de la mescaline.\\
+Le soleil fuit.\\
+Ici la lune.\x
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{13}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{13}$}% début du poème
+\begin{verse}
+\begin{verse01}
+Autour de son centre en une spire ouverte \\
+la terre tourne, le jour :\\
+autour de la terre en une spire ouverte\\
+la lune tourne, le mois :\\
+autour du soleil en une spire ouverte\\
+la terre tourne, l'année :\\
+autour de son centre en une spire ouverte\\
+le soleil tourne, la danse :\\
+le soleil et les autres étoiles en une spire ouverte\\
+ tournent et retournent, la danse.\x
+
+La danse est immobilité,\\
+changement sans changer,\\
+plus loin qui revient\\
+La danse est création\\
+des montagnes et des fleuves,\\
+des étoiles et des flots d'étoiles\\
+et l'anéantissement\\
+La danse est la spire ouverte\\
+de la spire de la spire\\
+de la danse dans la vallée.\x
+
+Commencer \\
+c'est retourner.\\
+Perdre la graine\\
+c'est la fleur.\\
+Apprendre la pierre\\
+touche la source.\x
+
+Voir la danse :\\
+clair d'étoile.\\
+Entendre la danse :\\
+obscurité.\\
+Danser la danse :\\
+briller, briller.\x
+
+\newpage
+
+Dans les maisons\\
+ils dansent.\\
+Sur les places de danse\\
+ils dansent et brillent.\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{14}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{14}$}% début du poème
+\begin{verse}
+\begin{verse01}
+Aux pâturages de musique\\
+Sous le ciel sauvage\\
+À la toison chantante\\
+Du plus bel animal\\
+Qu'un univers de sang\\
+Ait jamais vu furieux. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{15}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{15}$}% début du poème
+\begin{verse}
+\begin{verse01}
+« Avenir, musèle ton impatience », dit la voix\\
+Un jour peut-être, mais pas aujourd’hui.\\
+Un jour, plus tard, mais pas maintenant.\\
+L’homme est un mammifère bâtisseur.\\
+Ne me demandez jamais comment.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{16}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{16}$}% début du poème
+\begin{verse}
+\begin{verse01}
+Avec sa garde de flammes\\
+notre fragile épée prophylactique, pourfend, noire,\\
+sous les commentaires égratignants de l’Etoile polaire,\\
+les entrailles\\
+d’un enfer adouci,\\
+répandant la lumière sans illuminations.\x
+ 
+Des bribes de chanson,\\
+pour accompagner son aiguillon, \\
+sont glanées çà et là,\\
+et forment une mélodie inepte.\\
+À travers le chaos extérieur,\\
+issues d’une logique migratoire,\\
+les notes obscures\\
+découpent la noirceur d’une flamme. \x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{A}_\textrm{17}$}
+\addcontentsline{toc}{section}{\small$\textrm{A}_\textrm{17}$}% début du poème
+\begin{verse}
+\begin{verse01}
+Aya Hiyo\\
+Ma jangada est un poisson\\
+Ni un navire ni un avion\\
+Je suis premier, je suis second\\
+Ayaa Hiyo\\
+Du cours, du fond, suivons les flots\\
+Ma jangada est un îlot\\
+Aya Hiyo\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+
+\newpage
+\section*{\Huge$\textrm{B}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{B}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Balance-toi, bébé,\\
+Tout en haut de l’arbre.\\
+Quand le vent soufflera,\\
+Le berceau remuera... \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{B}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{B}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Battez-les bien bien fort\\
+Mettez-les bien en rangs\\
+C’est le blé pour l’hiver !\\
+Écrasez\\
+Bâillonnez\\
+Un p’tit saut, un p’tit bond !\\
+Close la bouche\\
+Clos les yeux\\
+Plus que ça faut qu’ils pleurent !\\
+On n’entend, on n’voit rien\\
+Et voilà, c’est gagné !\\
+\end{verse01}
+\end{verse}
+
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Ça c’est de la liberté\\
+\phicesure{CES ZOZOS LAISSENT DES NOIRES LESBIENNES} {SIDAÏQUES CHASSER DES CRÈCHES ENCORE}\\
+\phicesure {MAGGIE CLAME : « L’ENNEMI EST INTÉRIEUR »} {ENCORE UN TRIOMPHE »}\x
+
+«  DÉSOLÉ LES MECS PAS DE BLANCS »\\
+ENCORE UN TRIOMPHE POUR\\
+SALAUDS !\\
+ENCORE UN TRIOMPHE POUR LA\\
+GRANDE-BRETAGNE\\
+ENCORE UN ÉCHEC POUR LES TRAVAILLISTES\\
+NOUVELLE CHUTE DU CHÔMAGE\\
+ENCORE UN TRIOMPHE POUR LA\\
+GRANDE-BRETAGNE\\
+ENCORE UN TRIOMPHE\\
+LES TRAVAILLISTES ENVISAGENT UN CHARTER\\
+POUR LES PARASITES\\
+ENCORE UN TRIOMPHE POUR\\
+35 000 POSTES SERONT SUPPRIMÉS SI LES\\
+TRAVAILLISTES GAGNENT\\
+ENCORE UN TRIOMPHE POUR\\
+BRAVO, MAGGIE !\\
+ENCORE UN TRIOMPHE POUR\\
+(PROFITS RECORDS)\\
+ENCORE UN TRIOMPHE POUR\\
+NOUS\\
+ON VOUS A EUS !\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Capitaine d’une armée de rêves furieux,\\
+Armé d’une lance de flamme, dressé sur un cheval d’air\\
+J’erre dans le désert.\x
+
+Un chevalier de fantômes et d’ombres\\
+Me défie en combat singulier\\
+A dix lieues du bord du vaste monde. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Celui qui meurt chante\\
+ J'irai de l'avant.\\
+ C'est dur, c'est dur.\\
+ J'irai de l'avant.\x
+
+Les veilleurs chantent\\
+Va de l'avant.\\
+Va de l'avant.\\
+Nous sommes avec toi.\\
+Nous sommes à côté de toi.\x
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+Ce n’était qu’un rêve sans espoir,\\
+il passa comme un jour d’avril,\\
+\phicesure {mais un regard et un mot, et les rêves qu’ils éveillent,} {tordent encore les fibres de mon cœur !}\\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Ce n’était qu’un rêve sans espoir.\\
+Il passa comme un soir d’avril, un soir.\\
+Mais un regard, un mot, les rêves ont recommencé. \\
+Ils ont pris mon cœur, ils l’ont emporté.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+Ce )(rêve)( secret est\\
+ au futur du public non\\
+ remémoré jamais appris\x
+
+Rire\\
+puis naît la pensée\\
+ enfant d'une nuit absurde\\
+ le trouver flétri\\
+ par tant de labeur\\
+ « Je ne suis qu'un petit placard », dit le gvt.\\
+ « Tu te cognes la tête contre ma porte. »\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{07}$}%
+\begin{verse}
+\begin{verse01}
+Charabia, baragouin\\
+Palabre et baratin\\
+Chichi, flafla\\
+Blabla, esbroufe\\
+Que de sons tu étouffes\\
+sous ta prose de palatin !\x
+
+Tu soliloques tes litanies\\
+Tes homélies en stock\\
+Tu grandiloques, mon chéri\\
+Mais je prends ton tour – et roque !\x
+
+Car Carac a la faconde\\
+Le flot le flux l’onde\\
+La verve virtuose\\
+Qui tue, qui flue, qui ose !\x
+
+Le moine est ramollo\\
+Flagada, flapi, à plat\\
+Il caquette et jacasse\x
+
+Il jase en trémolo\\
+ses mots d’Hordre\\
+contre mes mots de passe\\
+En un mot comme en sang :\\
+Qui ne dit mot consent !\\
+À mots ouverts, je passe\x
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{08}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {C'est vous qui, alors que je pleure supplie m'excuse,} {ne me laisse même pas une fois baiser vos pieds.}\\
+Me fait marcher à travers feu ou eau.\\
+Vous, le Sultan de la Royauté qui donne des ordres.\\
+\hspace*{1cm}Comment rire si vous ne riez pas aussi ?\\
+L'esprit est l'esclave de ce rire sans lèvres sans dents.\\
+Pitié pour ceux qui voient votre sourire.\\
+Mais votre sourire est dissimulé dans l'oeil de la bête.\\
+\hspace*{1cm} \phicesure{Vous, qui sont la gloire et le souverain } {des humains qui ont un coeur}\\
+Nos docteurs à nous, malades.\\
+\phicesure{Un jour de pluie, les malades du monde se rendent} {à un jardin}\\
+Un jour de pluie, j'ai besoin d'un ami.\\
+ \hspace*{1cm}Ce matin, dans le jardin\\
+\phicesure{J'ai cueilli une rose — j'avais peur que le jardinier} {me surprenne}.\\
+Gentiment, il m'a dit.\\
+\phicesure{ \og Qu'est ce qu'il y en a foutre d'une rose.}{Prends mon jardin entier. \fg}\\
+\hspace*{1cm} \phicesure{Tout le monde à des amis ; tout le monde } {à des compagnons ;}\\
+Tout le monde à des talents ; tout le monde travaille. \\
+\phicesure{Nous qui avons des coeurs, nous reposons dans l'image} {de la personne que nous aimons vraiment}\\
+dans le soleil de nos émotions,\\
+dans les noirs ténèbres de la cave.\\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{09}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{09}$}%
+\begin{verse}
+\begin{verse01}
+Choisis\\
+Ils sont partis pour les étoiles\\
+Ils devaient être les plus fous\\
+Ou les meilleurs seulement\\
+Et ne laisser personne à ne jamais revoir\x
+
+Laissant la Terre et ses rosées\\
+Souriant aux gouffres infinis\\
+Ils avaient le vertige de l'espoir\\
+Le goût des larmes retenues\x
+
+Ils emmenaient leur propre peur\\
+Comme un vieux loup de compagnie\\
+Et quand elle s'en venait rôder\\
+Ils riaient\x
+Et crachaient dans sa gueule noire\!
+
+Foudre des hommes pour les pousser\\
+Comme en des voiles un vent salé\\
+Plus vite que la lumière\\
+Ils naviguaient\x
+
+Des îles qui sont des planètes\\
+En archipels tourbillonnants\\
+Et des phares qui sont des soleils\\
+En gemmes de feu\\
+Leurs yeux l'ont vu \x
+
+Vides leurs mains, quand ils rentrèrent\\
+Vides leurs cales\\
+Ils n'apportaient, les marins pauvres\\
+Que le butin de leur mémoire\x
+\newpage
+Ils revenaient plus tôt\\
+Que l'avait dit le vieil Albert\\
+On les fêta puisqu'il fallait\\
+Puis on les mit dans des maisons\\
+Pour qu'ils y soient bien oubliés\\
+Les héros de l'inutile\x
+
+
+Le temps se rit des rêves des hommes\\
+L'espace ne rend jamais les corps\\
+Rire et chagrin dansent enlacés\\
+Dans la nuit glacée des étoiles.\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{10}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{10}$}%
+\begin{verse}
+\begin{verse01}
+Contre Da-Yu\\
+Contre Huang Ti\\
+Contre Sun Yatsen\\
+Contre Mao\\
+Contre Li Peng\\
+Contre Zhou Enlai\\
+\phicesure {Et ensuite, contre les Indiens du Madhya Pradesh} {et du Gujerat}\\
+Contre les Sud-Américains\\
+Contre les Nord-Américains\\
+Contre le FMI, la Banque mondiale\\
+Contre le monde barré\\
+Pour l’espadon chinois aux œufs dorés\\
+Pour le hilsa et les anadromes en grand général\\
+Pour les herbes-cheveux\\
+\phicesure {Pour que les sédiments s’écoulent librement en flux} {dynamique dans des lits en tresse en méandre} {et pavés ou dallés comme ils voudront comme des chansons}\\
+Pour la capillarité retrouvée\\ 
+(...)\\
+Pour que les eaux se déversent dans les vallées,\\
+\phicesure {Pour que la Tchen avec la Wei viennent à déborder,} {major,}\\
+\phicesure {Pour secouer les volcans, pour couvrir les océans} {de méduses lubrifiées, ah major, prenez-moi}
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{C}_\textrm{11}$}
+\addcontentsline{toc}{section}{\small$\textrm{C}_\textrm{11}$}%
+\begin{verse}
+\begin{verse01}
+Croyez bien qu’une chose qui n’est pas perçue\\
+Ne peut pas exister, c’est la loi absolue.\\
+Et si de chaque fleur l’odeur n’est point sentie\\
+La fleur dans le néant va tomber engloutie.\x
+
+Croyez bien qu’une chose qui n’est pas perçue\\
+Ne peut pas exister, c’est la loi absolue.\\
+Ce qu’on ne goûte pas, ce que l’on n’entend pas,\\
+Ce qu’on ne voit bouger, ne connaît que trépas.\x
+
+Croyez bien qu’une chose qui n’est pas perçue\\
+Ne peut pas exister, c’est la loi absolue.\\
+Et celui qui tenait ce beau raisonnement,\\
+Savait ce qu’il disait et n’était point dément.\x
+
+Croyez bien qu’une chose qui n’est pas perçue\\
+Ne peut pas exister, c’est la loi absolue. \x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{D}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{D}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Dans la Maison des Chiens,\x
+
+Le coeur est un cimetière de cris et de larmes,\\
+caché loin de l’oeil du chasseur,\\
+où la mort recouvre l’amour de son émail\\
+et où les chiens viennent mourir en rampant...
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{D}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{D}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Dans le nid capitonné d’espoir de la bouche\\
+L’amour volette et se pose,\\
+Roucoule, étale sa gloire emplumée, éblouit,\\
+Et puis s’envole, en chiant\\
+Comme font les oiseaux\\
+Pour jet-assister le lancement. \\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{D}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{D}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+De belles empreintes gravées dans le temps\\
+Aussi douces que la vase des hauts-fonds\\
+Mon amour recouvre son corps de temps\\
+\phicesure {Puis elle me tire et nous nous envolons aux marges} {de l’existence}\\
+Un vol spirituel\\
+Les étoiles sont des fantômes dans nos yeux\\
+Nous sommes des fantômes dans les yeux des étoiles\\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{D}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{D}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+D’or est mon cœur et d’or le monde.\\
+De lumière un pic est coiffé,\\
+Et l’air s’immobilise au-dessus de la colline\\
+Avec la prime peur de la nuit.\x
+
+Le mystère roule des tonnerres dans le val silencieux,\\
+Ici, c’est la ténèbre,\\
+Le vent souffle, la lumière s’enfuit\\
+Et la peur hante la nuit.\x
+ 
+Une nuit, je le sais, en haut d’un lointain sommet,\\
+Et dans la langue jamais apprise,\\
+J’entendrai haut et clair la nouvelle.\\
+Ils l’annonceront de colline en colline,\\
+Sombres et inconsolés,\\
+Terre et ciel et vents.\x
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{D}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{D}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Dors dors dors\\
+ mais oui mais oui mais oui\\
+ nous sommes des boules d'oreilles \\
+ deux par deux\\
+ c'est moi chaud soleil\\
+ ciel bleu la nuit\\
+tous entrelacés\\
+ l'ombre est la lumière\\
+ la moitié d'un\\
+ devient mon jumeau\\
+ une main épaisse\\
+ l'autre diaphane\\
+ ciel transparent\\
+ me laisse traverser\\
+ en dormant chaque nuit\\
+ chacun de vous l'un de nous est\\
+ temps splendide\\
+petit sommeil\\
+mère statue\\
+petit sommeil\\
+père statue\\
+quelqu'un n'importe qui\\
+et quelqu'un autre\\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{D}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{D}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+Dors, mon petit,\\
+Dans les bras de maman.\\
+Au loin ont fui\\
+Les causes de tourment.\\
+Dans ton sommeil,\\
+Tu fais de jolis rêves,\\
+Les deux soleils\\
+À l'horizon se lèvent.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Écoute, écoute, écoute-moi.\x
+\phicesure {Il y eut une époque, avant les Saisons, où la vie} {et son Père Terre prospéraient également}\\ 
+\phicesure {La vie avait aussi une Mère. Il Lui arriva quelque chose} {de terrible.}\\ 
+\phicesure {Notre Père Terre savait qu’il aurait besoin d’une vie}{intelligente.} \\ 
+\phicesure {Aussi utilisa-t-Il les Saisons pour nous façonner } { à partir des animaux :} \\
+des mains habiles capables de fabriquer des choses,\\
+des esprits habiles capables de résoudre les problèmes, \\
+des langues habiles capables de créer la collaboration, \\
+\phicesure {des valupinae habiles capables de nous prévenir en cas} {de danger}.\\
+L’humanité devint ce dont le Père Terre avait besoin,\\ puis elle se retourna contre Lui.
+\\ Il nous voue depuis une haine incandescente.\x
+Souviens-toi, souviens-toi, oui, souviens-toi.
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Embrasser la diversité.\\
+S’unir…\\
+Ou être divisés,\\
+dépouillés,\\
+tyrannisés,\\
+tués,\\
+\phicesure {Par ceux qui voient en vous} {des proies.}\\
+Embrasser la diversité\\
+Ou être détruits. \\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Enfétichement nymphophobe et chastitute\\
+Pitié de ma douleur – vos vues austères\\
+Avivant les désirs ardents du poète\\
+Le font chanter de lubriques aventures.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+En terre molle ils dorment,\\
+Tous ces vieux chiens ignobles.\\
+Abrutis, sales et sourds,\\
+Ils ne voient plus le jour.\\
+Et passe, passe le temps,\\
+Rien n’y fera plus,\\
+Rien ni personne.\\
+Foutez-leur la paix :\\
+Ils dorment !\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Envoyez-moi vos désespérés, vos égarés,\\
+\phicesure {Qui assombris par la crainte rêvent} {d’une lumière victorieuse}\\
+\phicesure {Envoyez-les-moi, les esprits fourvoyés,}{les âmes errantes}\\
+De ma torche, j’éclaire la foi d’or!\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+En certaines âmes vivantes réside\\
+Une inexprimable solitude,\\
+Si grande qu’elle doit être partagée,\\
+De même que les êtres moindres\\
+Partagent leur présence.\\
+\phicesure{Je connais une telle solitude ;} {sache donc par ceci}\\
+Que dans l’immensité\\
+Vit plus solitaire que toi.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{07}$}%
+\begin{verse}
+\begin{verse01}
+Espacements dorés lacunes\\
+Ils sont vus les déserts verts\\
+On les rêve on les parlera\\
+Les oiseaux de jais immobiles\\
+Les armes couchées au soleil\\
+Le son des voix chantantes\\
+Les mortes les mortes les mortes\x
+ 
+Connivences révolutions\\
+C’est l’ardeur au combat\\
+Chaleur intense mort et bonheur\\
+Dans les poitrines mamellées\\
+Les phénix les phénix les phénix\\
+Célibataires et dorés libres\\
+On entend leurs ailes déployées \x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{08}$}%
+\begin{verse}
+\begin{verse01}
+Et au-dessous de nous les lumières s’évanouissent.\\
+Dans l’infini s’élancent les fils de la Terre\\
+Sous la poussée de leurs grondantes tuyères. \\
+D’un seul bond ils s’élancent à la conquête du Ciel,\\
+Plus loin, toujours plus loin, au bout de l’univers...\\
+
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{09}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{09}$}%
+\begin{verse}
+\begin{verse01}
+Et, comme tu me manques, je marche, invisible,\\
+Sur le vert uni et sec\\
+Pour apercevoir la lune errante\\
+Qui approche de son zénith,\\
+Comme quelqu’un qui s’est égaré\\
+Parmi les chemins larges et incertains des cieux ? \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{10}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{10}$}%
+\begin{verse}
+\begin{verse01}
+Et là se tenait l’empereur du royaume des larmes.\\
+Son torse puissant était ceint de glace ;\\
+À son bras seul les géants étaient\\
+Moins comparables qu’à moi un géant.\\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{011}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{14}$}%
+\begin{verse}
+\begin{verse01}
+Étoile qui flamboie, étoile de la nuit,\\
+J'ai de te posséder le désir infini\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{E}_\textrm{12}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{15}$}%
+\begin{verse}
+\begin{verse01}
+Est-ce moi qui blasphème ton nom, Seigneur ?\\
+en ce cercueil de l'âme\\
+— ce corps misérable —\\
+avec des pensées inquiètes, des capitulations,\\
+des faux-semblants, des échappatoires ?\\
+Est-ce bien moi qui blasphème ton nom, Seigneur,\\
+par mes atermoiements, ma lassitude ?\\
+Ne laisse pas retomber notre bras, Seigneur,\\
+mais remplis-nous après la bataille\\
+de l'immense amour du monde !\\
+En ce cercueil de l'âme mes pensées inquiètes... \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{F}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{H}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+fille forte et belliqueuse, ma fille tant aimée \\
+fille vaillante et tendre petite colombe, ma dame \\
+\phicesure {tu as fait des efforts et travaillé comme une fille} {vaillante} \\
+\phicesure {tu as vaincu, tu as fait comme ta mère la dame} {Cihuacoatl} \\
+\phicesure {tu as combattu avec vaillance, tu t’es servie du} {bouclier et de l’épée} \\
+lève-toi ma fille \\
+\phicesure {va à ce lieu bon qui est la maison de ta mère} {le soleil} \\
+\phicesure {où toutes sont pleines de joie de contentement} {et de bonheur.} \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{F}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{H}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Filons en chœur \\
+Avec ce vieux roto-moteur,\\
+Ça c’est l’bonheur !\\
+Et serrons-nous,\\
+Caressons-nous,\\
+Tamponnons-nous en chœur !\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{F}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{H}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Flacon que j'aime — 
+C'est toi que j'ai vanté ! \\
+Flacon que j'aime — Que m'a-t-on décanté ?\\
+\phicesure {Le ciel est pur dedans ton mur. Le temps} {est la douceur même,}\\
+Ah!\\
+Il n'est de Flacon au monde profona\\
+Pareil à toi, petit Flacon que j'aime ! \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{H}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{10}$}%
+\begin{verse}
+\begin{verse01}
+Heya, heya, hey,\\
+heya, heya.\\
+Heya, hey, heya,\\
+heya, heya.\\
+Hey, heya,\\
+heya, heya, heya.\\
+Heya, heya,\\
+hey, heya, heya.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{H}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{E}_\textrm{09}$}%
+\begin{verse}
+\begin{verse01}
+Humain, vois venir le zizo,\\
+Aux ailes enflammées.\\
+Ne le suis pas quand vient la nuit,\\
+Tu t'en repentirais. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{I}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{I}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Il faut le ventre plein pour juger du parjure\\
+Et le goût de l’orgie pour dicter l’anathème\\
+Mais celui qui a faim peut-il être aussi sûr\\
+Que le prix de sa vie se limite au blasphème\\
+\end{verse01}
+\end{verse}
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{I}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{I}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+… Il se retourne dans le caveau\\
+ \hspace*{1cm}du cerveau,\\
+pour s’éveiller, circuits branchés derrière\\
+ \hspace*{1cm}ses paupières,\\
+tendons distendus. Il s’éveille, charge statique,\\
+au crépitement de ses doigts, ramures électriques.\\
+ \hspace*{1cm}Il s’étrangle.\\
+Nous : Éveil/Rotation. Dos cloué comme en une sangle\\
+\phicesure {il pivote, épine vrillée, poitrine creusée. Il boit l’air} {qui traverse les fils.}\\
+Le plafond conducteur s’illumine de mille\\
+étincelles jaillissant au bout de ses doigts.\\
+Toussotements et pleurs. Ce sont ceux\\
+de son frère jumeau, là, derrière ses yeux.\\
+L’ombre ; le noir jumeau replié sur le sol\\
+s’étouffe. Ligoté au sombre pylône derrière\\
+ \hspace*{1cm}ses paupières,\\
+le noir jumeau, son frère d’ombre, s’arrache à ses liens\\
+ \hspace*{1cm}et de ses mains\\
+ \hspace*{1cm}martèle le plafond. Envol\\
+lumineux de perles chargées d’ions.\\
+ \hspace*{1cm}Le plafond\\
+polarisé lui frappe la joue d’un trait de métal\\
+ \hspace*{1cm}brutal,\\
+lacère des chairs, arrache des côtes, et des lambeaux\\
+ \hspace*{1cm}de pectoraux\\
+pendent des arcs de métal carbonisé\\
+par-delà les fentes desséchées\\
+que sont ses lèvres déchirées.\\
+Des os enchevêtrés grincent sur le plancher\\
+à la sciure sableuse et souillée.\\
+Eux : Éveil/Rotation.\\
+Nous : Éveil/Rotation.\\
+Et lui, vagissant de sa bouche ensanglantée\\
+se tourne encore et là, sur un sol de souffrance :\\
+naissance...\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{I}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{I}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Ils sont venus un matin\\
+Par la Montée du Hayet\\
+Un lieut’nant et ses huit chiens\\
+Dans leurs tenues de laquais\\
+Ils cherchaient le forgeron\\
+Qui pour l’honneur de sa sœur\\
+Avait rossé un baron\\
+Son valet et son bretteur\\
+Ils l’ont conduit sur la place\\
+Au pied de la Citadelle\\
+L’ont hissé dans une nasse\\
+Et l’ont confié au soleil\\
+Après dix jours de carême\\
+Quand ils l’ont redescendu\\
+Le forgeron était blême\\
+Et la justice rendue\x
+ 
+Je suis né dans une cité\\
+Où la loi est si parfaite\\
+Qu’elle se passe de procès\\
+De défenseur et d’enquête\\
+Car il suffit une fois rossé\\
+Pour obtenir réparation\\
+D’en avertir la Prévosté\\
+Pour peu bien sûr qu’on soit baron\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{I}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{I}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+Il vient un moment\\
+Tu sais\\
+Ton hymne d'en bas\\
+Qu'aucun esprit ne peut parler\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{I}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{I}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Il y a très, très, très longtemps,\\
+Nous étions tous de jeunes gens.\\
+La chair chantait à nos oreilles\\
+Sous la musique d’un soleil...\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{I}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{I}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+Il y a une voie.\\
+Il y a sûrement une voie.\\
+Il y a une voie, il y a une voie.\x
+
+Tu avances.\\
+Tes pieds sont sur cette voie.\\
+Tu avances sur cette voie.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{I}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{I}_\textrm{07}$}%
+\begin{verse}
+\begin{verse01}
+Intégrer, c’est donner, prendre,\\
+Enseigner, transmettre, offrir le maximum,\\
+Tout en faisant le moins de mal possible.\\
+L’intégration,\\
+La symbiose absolue.\\
+L’intégration, c’est la vie.\\
+Toute entité, tout processus auquel on ne peut,\\
+Auquel on ne doit résister,\\
+Ou que l’on ne peut éviter,\\
+Doit être intégré d’une manière ou d’une autre.\\
+Intégrez-vous les uns aux autres.\\
+Intégrez toutes les communautés.\\
+Intégrez la vie.\\
+Intégrez ce monde qui est le nôtre.\\
+Intégrez Dieu.\\
+Seule l’intégration peut assurer la prospérité, l’essor.\\
+Le Changement.\\
+Sans intégration, il n’est point d’avenir possible.\\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{I}_\textrm{01}$}%
+\begin{verse}
+\begin {verse01}
+J’ai reçu de l’amour une triple leçon :\\
+Le chagrin, le péché et la mort sont ses dons.\\
+Et cependant mon cœur jour après jour affronte\\
+Le chagrin et la mort, le péché et la honte.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+J’ai vu mon amour.\\
+J’ai volé jusqu’à elle\\
+Je lui ai offert mon présent\\
+Un fragment de temps figé\\
+De belles empreintes gravées dans le temps\\
+Aussi douces que la vase des hauts-fonds\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Je conduis de beaux dragons\\
+pour un beau dragon seigneur,\\
+un seigneur de beaux dragons\\
+et ses dragons suiveurs. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+Je crois au mariage de la chair et des pierres,\\
+Au dialogue des nerfs et des fibres de verre.\\
+Je crois en l’interface, au contrôle de la toile,\\
+Aux échanges qui sont la seule voie des étoiles.\\
+Je crois en la mémoire des endroits habités,\\
+Aux souvenirs communs des hommes et des cités… \x
+
+\phicesure {Les villes, si vieilles, regardent passer leurs} {habitants éphémères...}\\ 
+\phicesure {Les maisons survivent à qui les hante, les villes} {survivent aux maisons.}\\ 
+\phicesure {Peux-tu comprendre que la vitrine qui te reflète} {au passage n’a pas envie de se souvenir}\\ 
+\hspace{3.65em} de toi plus que nécessaire ?\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Je me réveille.\\
+\phicesure {L’appareil photo est éteint à côté de moi,} {le scaphandre silencieux.}\\ 
+J’entends battre mon cœur.\\
+Peu à peu, je me rendors.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {Je me souviens de la fumée de sel d’un feu } {de plage}\\
+Et des ombres sous les pins,\\
+Dures, propres... Solides.\\
+Des mouettes au bout de la terre,\\
+Blanches sur tout ce vert.\\
+Et du vent qui venait dans les pins\\
+Faire se balancer les ombres.\\
+Des mouettes qui déployaient leurs ailes\\
+Vers le ciel\\
+Et qui l’emplissaient de cris\\
+Dans le bruit du vent\\
+Qui soufflait sur la plage,\\
+Et le ressac.\\
+Et je vois notre feu\\
+Qui a brûlé les algues.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{07}$}%
+\begin{verse}
+\begin{verse01}
+Je n’ai pas semé, je n’ai pas filé,\\
+Et grâce à la pilule je n’ai pas péché.\\
+J’aimais les foules, la puanteur, le bruit,\\
+Et quand je pissais, je pissais turquoise.\\
+Je mangeais sous un toit orange,\\
+Articulé au progrès comme un gond de porte.\\
+Sous un toit violet, je suis venu aujourd’hui\\
+Pisser une fois pour toutes ma vie d’azur.\\
+Hôtesse virginale, racoleuse de la mort,\\
+La vie est belle, mais tu es plus belle encore.\\
+Pleure mon vit, fille violette –\\
+Il n’a jamais déversé que de l’eau bleu ciel. \\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{08}$}%
+\begin{verse}
+\begin{verse01}
+Je ne crois pas aux veaux à deux têtes, \\
+\phicesure {disent ceux qui n’en ont jamais vus et même} {les autres.}\\
+Je ne crois pas que la terre est creuse,\\
+disent les sceptiques de filiation douteuse.\\
+Je ne vous concède ni l’Atlantide,\\
+Ni Lemuria ni Mu,\\
+Ni les hommes des bois du septentrion,\\
+Ni les extra-terrestres aux jambes arquées,\\
+Ni le mythe vénérable de la technologie,\\
+Ni le charme des mégalithes intemporels.\\
+Je n’admets ni les baleines,\\
+Ni les îles de calcaire qui volent dans le ciel. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{09}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{9}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {Je ne suis pas gascon, mais le fils d’une déesse} {et d’un Zhù chinois aux appétits dévorants.}\x
+
+Ma hure noire et courte, je la dois à mon père féroce.\\
+Mes bas de soie rose à ma déesse mère,\\ 
+l’inconsolée de Bon-Augure, \\
+\phicesure {la belle Aréthuse qui me donna naissance par le pied}{pour que ne soit pas souillé son sexe.}\x
+
+Je suis comme Éros un indéfini renaissant.\\
+Mes antérieurs sont immortels et guident mes pas,\\
+ma croupe les suit et ainsi vais-je par le monde, \\
+deux sabots dans l’Olympe, \\
+deux sabots dans la fange.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{10}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{10}$}%
+\begin{verse}
+\begin{verse01}
+Je prie pour un dernier atterrissage\\
+Sur le globe qui m’a donné le jour. \\
+Puissent mes yeux voir le ciel, les nuages\\
+Et les vertes collines de la Terre.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{11}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{11}$}%
+\begin{verse}
+\begin{verse01}
+Je sais\\
+Que ma\\
+Rédemptri-ice\\
+Est vivante\\
+Et qu’Elle\\
+Sera présente\\
+Au dernier jo-our(trille) \\
+De la Terre\x
+
+Je sais (montant)\\
+Que-e ma (trille)\\
+Ré-é-demptrice (plaintif)\\
+Est vivante\\
+Et qu’Elle\\
+Sera présente (convexe)\\
+Et qu’Elle\\
+Sera présente (concave)\x
+
+Je sais (montant)\\
+Que ma ré (vraiment aigu)\\
+demptrice\\
+Est vi-i-ivante(toujours plus haut)\\
+Et qu’Elle\\
+Sera présente (avec assurance)\\
+\phicesure {Au de-e-e-e-ernier jo-o-o-our (trille plainte} {chute de la voix)}\\
+De-e la Terre (fin)\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{12}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{12}$}%
+\begin{verse}
+\begin {verse01}
+Je suis allé à St. James’ Infirmary,\\
+j’y ai vu ma gosse\\
+allongée sur une longue table,\\
+si douce, si froide, si blanche...
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{13}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{13}$}%
+\begin{verse}
+\begin{verse01}
+Je suis un Catamountain,\\
+Je monte la garde à la frontière,\\
+Chaque fois que je mets le nez dehors,\\
+Le vent me gèle le...\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{14}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{14}$}%
+\begin{verse}
+\begin{verse01}
+Jeune homme, ta poétesse ta langue dévorera.\\
+Jeune femme, ton poète tes mains te volera…\\
+... si les mots font la loi\\
+alors, je crois bien que mes doigts\\
+n’en ont pas connu d’autre.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{15}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{15}$}%
+\begin{verse}
+\begin{verse01}
+Je vis à la source et toi à l’embouchure\\
+Nulle nuit sans que je rêve de toi\\
+Mais jamais, jamais je ne te vois\\
+\phicesure {Bien que du même fleuve Bleu} {nous buvions l’eau}
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{J}_\textrm{16}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{16}$}%
+\begin{verse}
+\begin{verse01}
+J'irai de l'avant.\\
+Ça change.\\
+J'irai de l'avant.\\
+Vas-y maintenant, avance.\\
+Quitte-nous maintenant.\\
+Il est temps que tu nous quittes.
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Labyrinthe de la Nuit\\
+Le soleil est un reflet\\
+La planète sous mes pas\\
+Glacée d’éternité\x
+
+Labyrinthe de la Nuit\\
+Les longues heures du soir\\
+Rampent au fond des vallées\\
+Cherchent un paysage perdu\x
+
+Labyrinthe de la Nuit\\
+Tu as pleuré tes larmes\\
+Sec et aride tu ris\\
+Ton sourire est trompeur\x
+
+Labyrinthe de la Nuit\\
+Les pierres bleues se souviennent\\
+Quelque chose a jailli\\
+Sous mes pas dans ma voix\x
+
+Labyrinthe de la Nuit\\
+Des fantômes dansent encore\\
+Nul n’y peut voir que la mort\\
+Quand le soleil vient enfin\x
+
+Labyrinthe de la Nuit\\
+Abandonne les souvenirs\\
+Aux frontières de la vie\\
+Lourd passé sans avenir\x
+
+Labyrinthe de la Nuit\\
+La planète sous mes pas\\
+Glacée d’éternité\\
+Mais encore vivante encore vivante\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+La-la-la-la-la,\\
+Est-ce qu’on y voit vraiment plus clair\\
+Quand on est sur une plage de verre ?\\
+Hmm, hmm, hmmm, hmm-hmm...
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+(Là, où seuls les sapins blanchissent...)\\
+Les flocons de cendres de l’hiver s’élèvent\\
+en donjons de blizzard.\\
+Des silhouettes brisent la ligne de l’horizon.\\
+L’obscurité, comme une absence de visages,\\
+se déverse de la maison ouverte.\\
+Elle suinte par le pin éclaté,\\
+et coule de l’érable mutilé.\\
+Peut-être est-ce l’essence de la sénescence,\\
+cueillie dans le rêve des dormeurs,\\
+qui imprègne cette voie,\\
+dans l’excès qu’engendre la saison.\\
+Ou bien est-ce la grande anti-vie,\\
+qui apprend à peindre pour se venger,\\
+à enfoncer une stalactite dans l’oeil de la gargouille.\\
+Parce que, à proprement parler, bien que personne\\
+ne puisse s’appréhender dans sa totalité,\\
+je vois vos cieux éclatés, dieux déchus,\\
+comme dans un rêve brumeux,\\
+plein d’anciennes statues en flammes,\\
+s’enfoncer dans la terre. Silencieusement.\\
+(... et jamais la neige ne verdit.)
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+La fin du siècle c'est la fin la misère \\
+Le siècle et nous on est déshabillés\\
+Un siècle est mort et est porté en terre \\
+Nègre est un siècle et bien dénaturé.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+L'aigle tournoie, crie et virevolte.\\
+Il y a une tique piquée sur mon crâne.\\
+Si je vole avec l'aigle\\
+Je dois sucer avec la tique.\\
+\phicesure {Oh collines de ma vallée, vous êtes} {trop compliquées !}
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {Laissez-moi respirer encore un air qui n’est} {pas mesuré}\\
+Où il n’y a ni pénurie ni disette
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{07}$}%
+\begin{verse}[\versewidth]
+\begin{verse01}
+\phicesure {Laissez la douce brise mettre un baume} {sur mes plaies}\\
+Écharpe vaporeuse, ceinture aérienne\\
+De notre belle et douce planète maternelle\\
+Des fraîches et vertes collines de la Terre
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{08}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {La pierre perdure, immuable. Ne modifiez jamais} {ce qui y est gravé.}\x
+
+\phicesure {Au cœur de la structure, toujours, une poutre}{centrale flexible.}\\
+Crois au bois, crois à la pierre ; le métal rouille.\!
+
+\phicesure {Le corps faiblit. Le dirigeant visionnaire s’appuie} {sur d’autres qualités.}\!
+
+La richesse ne vaut rien lorsque tombe la cendre.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{09}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{09}$}%
+\begin{verse}
+\begin {verse01}
+La plage de sable aussi grise qu’une joue morte,\\
+Le flux verdi reflète les rides des nuages\\
+Et moi je suis au bord de l’eau sombre.\\
+L’écume froide me lave les orteils\\
+Et je sens la fumée du bois d’épave. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{10}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{10}$}%
+\begin{verse}
+\begin{verse01}
+Larguez votre câble. Fuyez ! Faites vite !\\
+Les écrans protecteurs ont sauté,\\
+Les radiations ne m’ont pas épargné.\\
+Gagnez la Terre dans vos engins de sauvetage\\
+Et dites à ceux de la Compagnie\\
+Que j’étais né pour rouler dans l’espace infini\\
+Et que j’y roulerai maintenant pour l’éternité. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{11}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{11}$}%
+\begin{verse}
+\begin{verse01}
+
+La Saison revient toujours.\x
+
+\phicesure {Notre Terre pense en éternités, mais il ne dort jamais.} {Pas plus qu’il n’oublie.}\x
+
+\phicesure {Traquez l’orogène au berceau. Cherchez le centre } {du cercle. Vous y trouverez \{obscurci\}}!\x
+
+\phicesure {Cherchez le [obscurci] rétrograde dans le ciel du midi.} {Lorsqu’il grossit, \{obscurci\}}\x
+
+\phicesure {\{illisible\} les yeux de givre, les cheveux acendres, le nez} {filtrant, les dents aiguës,} \\
+ \hspace{13.6em}langue divisant les sels.\x
+ 
+ \phicesure { \{obscurci\} ceux qui aimeraient étreindre la terre} {trop intimement.}\x
+ \phicesure {Ils ne sont pas maîtres d’eux-mêmes ; ne les laissez} {pas devenir maîtres d’autrui.}\!
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{12}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{12}$}%
+\vspace{-2em}
+\begin{verse}
+\begin{verse01}
+La terre tourne,\\
+la terre tourne et vire,\\
+vire la durée de la journée\\
+entre lumière et obscurité.\\
+Ce qu'il y a entre sud et nord\\
+c'est l'axe du cercle ;\\
+ce qu'il y a de l'ouest à l'est\\
+c'est la façon de tourner.\\
+Dans la lumière et l'obscurité, donc,\\
+tournant dans la lumière et l'obscurité.\x
+
+La lune tourne,\\
+la lune tourne et décrit un cercle,\\
+la lune décrit un cercle de la durée du mois,\\
+vire le jour lunaire qui dure un mois,\\
+entre lumière et obscurité\\
+\phicesure {décrit un cercle autour de la terre qui tourne} {et vire.}\\
+Le croissant est l'aube du jour lunaire,\\
+la pleine lune le plein midi, le déclin le soir,\\
+la nouvelle lune est la nuit de la lune\\
+qui regarde l'obscurité, donc,\\
+tournant dans la lumière et l'obscurité.\x
+
+La terre et la lune ensemble,\\
+ensemble les deux vont tournant,\\
+décrivant un cercle autour du soleil,\\
+décrivant un cercle de la durée de l'année,\\
+et l'axe oblique de la révolution\\
+crée l'hiver et l'été,\\
+le début et la fin de la danse de l'année.\\
+Les danseurs, les éclatants danseurs,\\
+Ou, l'éclatant enfant-soleil,\\
+Adsevin, gloire du matin, gloire du soir,\\
+les danseurs, regarde les éclatants danseurs,\\
+hors de la terre, Kemel rouge,\\
+Gebayu et Udin,\\
+et les danseurs perdus, dans l'obscurité,\\
+que l'oeil ne voit plus,\\
+tournant, décrivant des cercles autour de la lumière,\\
+tournant dans la lumière et l'obscurité.\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{13}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{13}$}%
+\begin{verse}\begin{verse01}
+Là, tous les violoneux s’en donnaient à cœur joie.\\
+Sur les toits\\
+Et les Rabelaisiens y retrouvaient Thélème\\
+Sans problème.\\
+En parcourant ces rues notre Jones I’Utopiste\\
+De son Utopie-Ville cherchait en vain la piste.\\
+Ce monde souriant ignorait les geignards.\\
+Mais accueillait d’emblée tous les joyeux gaillards.\\
+Plaisirs enchanteurs bons pour les Lotophages,\\
+Mais trop sages\\
+Pour nos fringants fier-à-bras des Frelons,\\
+Nos flambants fous volants.\\
+Pourtant leur regard vif finit par se ternir.\\
+Et leurs paupières pesaient sur leurs yeux de zombies.\\
+Comment faire la foire et voir les nuits blanchir\\
+Sur un monde où la faune est de l’après-midi ? \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{14}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{14}$}%
+\begin{verse}\begin{verse01}
+L’audace\\
+Est le ferment de notre unité :\\
+Elle oriente nos rêves,\\
+Guide nos projets,\\
+Conforte nos efforts.\\
+L’audace\\
+Nous définit,\\
+Nous façonne,\\
+Elle est le chemin\\
+De la grandeur. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{15}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{15}$}%
+\begin{verse}
+\begin{verse01}
+La voûte du ciel rappelle\\
+Les hommes de l’espace à leur poste.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{16}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{16}$}%
+\begin{verse}
+\begin{verse01}
+Le boucher vient près de nous\\
+Comme le grand méchant loup\\
+Il aiguise bien sa lame\\
+Et sur nous verse une larme.\\
+Comment aller à leu leu ?\\
+Nous, nous n’avons plus de queue.\x
+
+Hélas, la belle herbe verte\\
+ Point ne pouvions la brouter\\
+ Ni mêm’ la déraciner,\\
+Encore moins la ruminer.\\
+Une voie était offerte :\\
+Nos gosiers nous enlever.\\
+Sept estomacs nous greffer. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{17}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{17}$}%
+\begin{verse}
+\begin{verse01}
+Le chant change.\\
+La lumière change.\\
+Le chant change.\\
+La lumière change.\\
+Ils viennent.\\
+Ils dansent dans le scintillement.\\
+Réunion.\x
+
+Ne te retourne pas.\\
+Tu entres.\\
+Tu y parviens.\\
+Tu arrives.\\
+La lumière augmente.\\
+ Ici c'est l'obscurité.\\
+Regarde devant toi.\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{18}$}
+\addcontentsline{toc}{section}{\small$\textrm{J}_\textrm{18}$}%
+\begin{verse}
+\begin{verse01}
+Le Chaos,\\
+La face la plus dangereuse de Dieu,\\
+Incohérente, tumultueuse, affamée.\\
+Façonnez le Chaos,\\
+Façonnez Dieu.\\
+Agissez.\\
+Corrigez la vitesse\\
+Ou la direction du Changement.\\
+Modifiez l’étendue du Changement.\\
+Bouleversez les semences du Changement.\\
+Transformez l’impact du Changement.\\
+Saisissez-vous de lui.\\
+Mettez-le à votre service.\\
+Adaptez-vous, grandissez.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{19}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{19}$}%
+\begin{verse}
+\begin{verse01}
+Le désarmement fut décidé\\
+pour tromper le spectre\\
+(l'armement n'était qu'avidité)\x
+
+Et trouvée l'ingénieuse blessure de\\
+fantôme à fantôme de montagne à montagne,\\
+\phicesure {musique à une joie et une image d'un spectre toujours} {en vie dans toutes les langues,}\\ 
+« elle » tient sa maison si propre,\\
+ si non trouvée\!
+
+Nous ne nous réunissons pas en réunions\\
+ personne n'arrive à s'entendre\\
+\& ne parvient à la moindre conclusion en discutant\\
+ même à nullepart\!
+
+À présent des milliers s'envolent\\
+ au gré des circonstances pour rien\\
+ camper près d'une kiva\\
+ vieille abbaye temple je ne sais\\
+ simultanément avec des milliers\\
+(il ne peut y avoir ni guerres ni batailles,\\
+ les gens sont sans pouvoir par choix)\\
+ \phicesure {là où aucun mot ne peut être prononcé avant} {une histoire conte en strates bleues}\\
+vérité rouge géologique exige\\
+ transition montagne histoire\\
+ invention génétique laissant\\
+ le jaune tomber aux humains o\\
+ toutes vues langages vision\\
+ noir \& blanc vivace et perdu\\
+ couleur hiéroglyphe galaxies\\
+ singe histoire perdue violets\\
+ sauriens grottes par monstres\\
+ dragon humain vert l'outil\\
+ frappe ton ancêtre tête devient\\
+ arme des êtres sont en voyage\\
+partout en pyjama gratuitement\\
+ endormi problèmes réglés par\\
+ le condensé d'une inspiration\\
+ entendue par écrit en dessin\!
+
+\flagverse{(refrain)}de ces mêmes images est histoire contée en strates bleues\\*
+vérité rouge géologique exige\\*
+ transition montagne histoire\\*
+ invention génétique laissant\\*
+ le jaune tomber aux humains o\\*
+ toutes vues langages vision\\*
+ noir \& blanc vivace \& perdu\\*
+ couleur hiéroglyphe galaxies\\*
+ singe histoire perdue violets\\*
+ sauriens grottes par monstres\\*
+ dragon humain vert l'outil\\*
+ frappe ton ancêtre tête devient\\*
+ arme des êtres sont en voyage\\*
+partout en pyjama gratuitement\\*
+ endormi problèmes réglés par\\*
+ le condensé d'une inspiration\\*
+ entendue par écrit en dessin\\*
+
+ par au moins 7/16° d'entre eux.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{20}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{20}$}%
+\begin{verse}
+\begin{verse01}
+Le Dieu regrette la colérisation\\
+Du robot habile en versification\\
+Mais de Ses attentes étant dissanguin,\\
+Lui ordonne Annulez, Annulez, Annulez…\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{21}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{21}$}%
+\begin{verse}
+\begin{verse01}
+Le froment, le mil, l’épeautre et toutes les céréales \\
+\phicesure {c’est pour les autres que nous les semons,} {quant à nous, malheureux} \\
+avec un peu de sorgho nous nous faisons du pain. \\
+Les coqs les poules les oies les poulardes \\
+\phicesure {ce sont les autres qui les mangent, quant à nous,} {avec quelques noix} \\
+nous mangeons des raves comme font les cochons. \\
+\phicesure {Nous sommes des malheureux et des malheureux} {nous serons.} \\
+Nous sommes vraiment la lie de ce monde. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{22}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{22}$}%
+\begin{verse}
+\begin{verse01}
+Le mur de l’immémorable passé\\
+Cache à mes yeux l’ancienne chute\\
+Où toutes les eaux se jettent\\
+Tandis que les jeux d’écume\\
+Sous le flot du torrent.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{23}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{23}$}%
+\begin{verse}
+\begin{verse01}
+L’enfant caché en chacun d’entre nous\\
+A l’expérience du paradis.\\
+Le paradis est le foyer de tout le monde.\\
+Tel qu’il était\\
+Ou tel qu’il aurait dû être.\x
+
+Le paradis appartient à tous,\\
+Il est notre peuple,\\
+Notre monde,\\
+Il sait, autant qu’il est su,\\
+Peut-être aime-t-il autant qu’il est aimé.\x
+
+Cependant tout enfant\\
+Est chassé du paradis,\\
+Condamné à la croissance, à la destruction,\\
+Condamné à la solitude, à de nouvelles rencontres,\\
+Emporté dans le vaste, l’éternel\\
+Changement. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{24}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{24}$}%
+\begin{verse}
+\begin{verse01}
+Le passé est un gros ballon,\\
+Je souffle dedans tant et tant.\\
+Nous sommes des fantômes, des bouffons,\\
+Un clan fermé et détonnant.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{25}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{25}$}%
+\begin{verse}
+\begin{verse01}
+Les mains bougent, les lèvres bougent.\\
+Les idées surgissent de ses paroles,\\
+Et son regard est dévorant !\\
+Il est une île sur lui seul close.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{26}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{26}$}%
+\begin{verse}
+\begin{verse01}
+Les montagnes boisées jusqu’au sommet, les prés\\
+\phicesure {Et les clairières s’élevaient comme des chemins} {conduisant au Ciel,}\\
+Le fin cocotier inclinant sa couronne de plumes,\\
+L’éclair brillant de l’insecte et de l’oiseau,\\
+L’éclat des longs volubilis\\
+\phicesure {Qui s’enroulaient autour des troncs majestueux,} {et couraient}\\
+Même jusqu’aux limites de la terre, les lueurs\\
+Et les splendeurs de la grande ceinture du monde,\\
+Il vit tout cela.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{27}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{27}$}%
+\begin{verse}
+\begin{verse01}
+Les musiciens de Tachas Touchas\\
+\phicesure {des rivières font des flûtes, et des collines } {font des tambours,}\\
+Les étoiles apparaissent pour les écouter.\\
+Les gens ouvrent les portes des Quatre Maisons,\\
+ils ouvrent les fenêtres d'arc-en-ciel,\\
+pour écouter les musiciens de Tachas Touchas.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{28}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{28}$}%
+\begin{verse}
+\begin{verse01}
+Les oiseaux fous de la guerre\\
+Furieusement réveillent par leur vol\\
+En chacun l’appel de la mer\\
+Longtemps étouffé par l’hiver.\\
+Mon amour, ils m’appellent\\
+Et leur chant parle de fleurs\\
+De bon augure pour le voyage.\\
+Adieu, je vous aime !...
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{29}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{29}$}%
+\begin{verse}
+\begin{verse01}
+Les perceptions se brisent, les vérités se cassent\\
+la réalité prend une autre dimension\\
+Conscience d'un nouveau genre\\
+Entre dans l'esprit de l'empereur\!
+
+Un peu de désir\\
+Une bagatelle d'excès \\
+Une tonne d'apprentissage\\
+Transcendence expresse\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{30}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{30}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {les révoltés aux cheveux longs sont liés pour} {la vie et la mort} \\
+ils ne s’attaquent pas aux voyageurs qui vont seuls \\
+ils ne s’en prennent pas aux désarmés \\
+\phicesure {mais que vienne un fonctionnaire ou un personnage} {officiel} \\
+qu’il soit bon ou corrompu \\
+ils ne lui laissent que la peau sur les os. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{31}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{31}$}%
+\begin{verse}
+\begin{verse01}
+Le soleil s’est couché \\
+Montagnes, arbres, rochers, rivières \\
+Architectures immenses enfouies dans l’obscurité \\
+Les hommes allument leurs lanternes \\
+Ils jouissent de tout ce qu’ils voient \\
+Et espèrent trouver tout ce qu’ils cherchent \\
+\end{verse01}
+
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{32}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{32}$}%
+\begin{verse}
+\begin{verse01}
+L’espace était sa patrie,\\
+Le base-ball, le principal de ses soucis.\x
+ 
+Ci-gît un Cardinal.\\
+\phicesure {Au cours des siècles il promena} {son impatience}\\
+Avant de découvrir l’infamie\\
+Et son désespoir fut immense,\\
+À tel point qu’il en perdit la vie.\x
+ 
+Dans les saloons de l’espace, hélas !\\
+Que ne s’est-il attardé\\
+Au lieu de pourchasser la vérité !\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{33}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{33}$}%
+\begin{verse}
+\begin{verse01}
+Les portes des Quatre\\
+Maisons sont ouvertes.\\
+À coup sûr elles sont ouvertes.\x
+
+Les portes des Quatre\\
+Maisons sont ouvertes.\\
+À coup sûr elles sont ouvertes\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{34}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{34}$}%
+\begin{verse}
+\begin{verse01}
+Les villages ont disparu,\\
+Les lances se sont brisées.\\
+Ici,\\
+Nous avons mangé sous les étoiles,\\
+Et vous,\\
+Vous y avez répandu des graviers.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{35}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{35}$}%
+\begin{verse}
+\begin{verse01}
+Le temps fuyait et les pierres revenaient.\\
+Le sable coulait et les années s’effritaient.\x
+ 
+Écoutez-moi, je suis le temps des roches !\\
+Lente et sans merci !\\
+Je suis l’herbe qui pousse dans les fentes,\\
+Je suis la poussière que le vent pousse où il veut,\\
+\phicesure {Je suis la mousse qui ronge le granit, je suis le lichen} {sur la glace,}\\
+Je suis l’algue bleue, je suis son respir, je suis la vie…\x
+ 
+Ne vous retournez pas, le temps vous dévorera !\\
+Je suis la montagne qui vous écrase,\\
+Ne vous retournez pas, touchez le sommet,\\
+Avant que je vous rattrape !\x
+ 
+Le temps fuit et les années ne reviennent pas.\\
+Les pierres s’effritent et le sable coule.\\
+Le temps s’enfuit. Qu’attendez-vous ?\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{36}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{36}$}%
+\begin{verse}
+\begin{verse01}
+Lfut bouyeure et les filuants toves\\
+Gyrèrent et bilbèrent dans la loirbe...\\
+Tout smouales étaient les borogoves\\
+Et les dcheux verssins hurliffloumèrent...\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{37}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{37}$}%
+\begin{verse}
+\begin{verse01}
+L'œil devient une goutte de matière visqueuse,\\
+qui s'\\
+a\\
+l\\
+l\\
+o\\
+n\\
+g\\
+e\\
+démesurément\\
+et\\
+finit\\
+par\\
+atteindre\\
+le\\
+sol\\
+en faisant un bruit mou 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{38}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{38}$}%
+\begin{verse}
+\begin{verse01}
+Lorsque la voie est libre, les rapports tous rendus,\\
+\phicesure {Lorsque le sas se ferme avec un soupir et que} {les lampes vertes clignotent,}\\
+\phicesure {Lorsque le compte à rebours est fait, qu’il est temps} {de prier,}\\
+\phicesure {Lorsque le capitaine fait le signe, que les réacteurs} {rugissent...}\\
+Écoutez les tuyères,\\
+Écoutez-les rugir dans votre dos,\\
+Lorsque vous êtes étendu sur la couche,\\
+\phicesure {Que vous sentez vos côtes s’enfoncer dans} {votre poitrine,}\\
+Votre cou creuser son empreinte,\\
+Votre vaisseau peiner de toute sa membrure,\\
+Se tendre sous son étreinte,\\
+Lorsque vous le sentez s’élever, prendre son essor,\\
+Et l’acier torturé prendre vie\\
+Sous ses tuyères ! \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{39}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{39}$}%
+\begin{verse}
+\begin{verse01}
+L’ours a passé la montagne,\\
+A passé la montagne,\\
+A passé la montagne...\\
+Et que croyez-vous qu’il vit ?\x
+
+L’ours a passé la montagne,\\
+A passé la montagne.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{L}_\textrm{40}$}
+\addcontentsline{toc}{section}{\small$\textrm{L}_\textrm{40}$}%
+\begin{verse}
+\begin{verse01}
+Lutter avec des rêves\\
+Ou contenir des ombres ?\\
+Et marcher dans l’ombre d’un sommeil ?\\
+Le temps s’est écoulé\\
+Et la vie fut volée\\
+Tu remues des vétilles.\\
+Victime de ta folie
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{M}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{M}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Mes poumons goûtent l’air du Temps\\
+Qui souffle dans les sables amoncelés...  
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{M}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{M}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Mon cœur s’amollit \\
+quand je vois le printemps revenir \\
+l’été reverdir \\
+l’air doux est un poison mortel \\
+la chair de tes lèvres \\
+est à ma bouche \\
+le soleil et la neige. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{M}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{M}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Monstrueux !\\
+Monstrueux !\\
+Monstrueux !\\
+Nous deviendrons des monstres !\\
+Nous deviendrons des monstres !\\
+Nous deviendrons des monstres !\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Ne crains plus ni la chaleur du soleil\\
+Ni les déchaînements des hivers en furie,\\
+Toi qui as accompli ton labeur en ce monde,\\
+Tu es rentrée au bercail en emportant tes gages.\\
+Garçons et filles à la peau dorée,\\
+Tous à la poussière retournerez\\
+Comme autant de hérissons de ramoneurs.  \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Ne fais jamais hier ce qui doit être fait demain.\\
+\phicesure {Si ton entreprise finit par réussir, ne la recommence} {jamais.}\\
+Un point fait à temps en épargne neuf milliards.\\
+Un paradore peut se paraccommoder.\\
+Il est plus tôt que vous ne pensez.\\
+Nos ancêtres sont des justes.\\
+Jupiter lui-même s’endort quelquefois.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {ni même vraiment cherché à les reproduire en musique} {de chambre pour le plaisir ? ‘    ~}\\
+\phicesure {Compacter mon vif, je      bien, si je savais où   ‘ trouve} {et comment le nouer, à moins qu’on y}\\
+d’instinct, ce qui m’irait plutôt, sans\\
+être sûr qu’il       que quelque\\
+de moi se perpétue, sinon – si, mon oreille\\
+hormis        (     ) la mélomanie n’a pas été le\\
+fort de notre bonne horde, combien de fois la trace était\\
+évidente, rien\x
+
+
+qu’au son et non, il falla · qu’ils reniflent\\ et qu’ils regarden t, ça restera fou ce que\\ le Goth a d’cid’ ` fleur de p · touta sa v ·\\ , lu · f · · gro · son v · est un gro ·
+
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+Nous accueillons la mort du monde\\
+Avec une grande joie,\\
+Riant, nous étreignons\\
+Le commencement et la fin;\\
+Impatiemment nous attendons.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {Nous avons essayé tous les grains de poussière} {tourbillonnant dans l’espace}\\
+Et en avons jaugé la valeur véritable :\\
+Ramenez-nous encore à la terre des hommes\\
+Sur les fraîches et vertes collines de la Terre.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+Nous avons eu une vie heureuse\\
+Nous vous offrons un petit\\
+Pour échapper à l’effondrement\\
+Allez dans le nouveau
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{07}$}%
+\begin{verse}
+\begin{verse01}
+Nous a-vons soif de con-nais-san-ce\\
+Nous vou-lons pé-nétrer tes lois.\\
+Et le se-cret de ta nais-san-ce\\
+Et le pô-le de no-tre foi. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{08}$}%
+\begin{verse}
+\begin{verse01}
+Nous devons nous purifier et nous battre.\\
+Que la seule haine anime notre sein,\\
+Mangeons nos cœurs, refusons la bonté\\
+Jusqu’à ce que la vengeance nous apporte le repos.\!
+ 
+Sang de chauve-souris, et entrailles,\\
+Entre nos dents le fiel amer.\\
+La haine seule fera que la terre\\
+Rendra ses morts à la vie.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{09}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{09}$}%
+\begin{verse}
+\begin{verse01}
+Nous n’avons pas peur des ruines.\\
+Nous sommes capables de bâtir aussi.\\
+C’est nous les travailleus•es\\
+qui avons construit les villes de partout.\\
+Nous allons recevoir le monde en héritage.\\
+La bourgeoisie peut bien se faire sauter.\\
+Nous portons un monde nouveau dans nos cœurs.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{10}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{10}$}%
+\begin{verse}
+\begin{verse01}
+Nous pourrissons dans les fanges de Vénus,\\
+Nous vomissons sur son souffle empoisonné.\\
+Pestilentielles sont ses jungles inondées,\\
+Grouillantes d’organismes putréfiés.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{11}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{11}$}%
+\begin{verse}
+\begin{verse01}
+Nous prions pour un dernier atterrissage,\\
+Sur le globe qui nous a donné le jour;\\
+Puissent nos yeux voir le ciel, les nuages\\
+Et les vertes collines de la Terre. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{12}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{12}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {Nous sommes douze, ô Ford; que ta main nous} {rassemble}\\
+Comme au Rû Social gouttelettes tombant,\\
+\phicesure {Ah ! Fais-nous courir tous ensemble, Plus vifs que} {ton Tacot ardent!}\x
+
+\phicesure {Viens, Grand Être, ô l'Ami Social et certain, Toi,} {l'Anéantisseur de Douze-en-Un, génie !}\\
+\phicesure {Nous voulons mourir, car la fin, C'est l'aube de Plus} {Grande Vie !}\!
+
+\phicesure {Sentez venir à vous le Grand Être des jours !} {Réjouissez-vous-en, mourez dans cette foi !}\\
+\phicesure {Fondez aux accents des tambours, Car je suis vous,} {vous êtes moi.}\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{13}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{13}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {¿’ Nous sommes faits de l’étoffe dont sont tissés} {les vents.}\!
+
+fuit\\
+pur\\
+fou\\
+».\\
+,\\
+os bile , jus'\\
+, le\\
+stance vivant mme lié, poussi e\\
+re\\
+l'or gi e fut ».\\
+vitesse,\\
+vent furtif,\\
+« vent\\
+fou\\
+forme,\\
+s\\
+lent\\
+Bien\\
+cosmos table, à toi,\\
+, prits a vivant, jus ' vous. homme lié, pousse\\
+vite\!
+
+Puis le cosmos\\
+\phicesure {consista s table, 'au viva t, jusqu'à vous. Bienvenue ,} {lent homme , ou tres} \\
+de vi es\!
+.
+Nous sommes\\
+don\\
+de l'étoffe\\
+faits de\\
+sont tissés\\
+de'\\
+vents\\
+¿Nous sommes faits de l'étoffe dont sont tissés les vents.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{14}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{14}$}%
+\begin{verse}
+\begin{verse01}
+NOUS SOMMES LA NATURE QU’ON DÉFONCE.\\
+\phicesure {NOUS SOMMES LA TERRE QUI COULE, JUSTE} {AVANT QU’ELLE S’ENFONCE.}\\
+\phicesure {NOUS SOMMES LE CANCER DE L’AIR ET DES EAUX,} {DES SOLS, DES SÈVES ET DES SANGS.}\\
+\phicesure {NOUS SOMMES LA PIRE CHOSE QUI SOIT ARRIVÉE} {AU VIVANT. OK. ET MAINTENANT ?}\\
+\phicesure {MAINTENANT, LA SEULE CROISSANCE QUE } {NOUS SUPPORTERONS SERA CELLE}\\
+\hspace{3.6em} [DES ARBRES ET DES ENFANTS.\\
+\phicesure {MAINTENANT NOUS SERONS LA NATURE QUI} {SE DÉFEND.}
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{N}_\textrm{15}$}
+\addcontentsline{toc}{section}{\small$\textrm{N}_\textrm{15}$}%
+\begin{verse}
+\begin{verse01}
+Nous ve-nons d’é-d’é\\
+Nous ve-nons d’é-lir’\\
+Le pré-pré-si-dent\\
+De la Ré-pu-blic’\\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+O enfant Anarchie, promesse infinie \\
+attention perpétuelle\\
+j'écoute, j'écoute dans la nuit\\
+près du berceau, profond comme la nuit\\
+il est bon d'être avec l'enfant.\\
+\end{verse01}
+
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Ô porteur de mort\\
+Je vous aimes,\\
+Ô seigneur de la destruction,\\
+Je vous loue,\\
+En vous seul\\
+Se clôt le cycle\\
+La fin commence\\
+Le commencement fini.\\
+Cracheur de feu, étreinte sombre,\\
+Silence mon coeur\\
+Hurlant une extase transcendante;\\
+Toujours mon dernier saut,\\
+M'achève\\
+Aux limites de l'amour,\\
+Pour eux seuls\\
+Art, autre moi-même\\
+Et les ténèbres de mon être secret,\\
+Et l'amour qui est mort.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Ô timonier, c’est une nuit d’effroi !\\
+Le danger guette par les fonds. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+Oh ! chaud le jour,\\
+Brûle la chaux.\\
+Douce l’eau vive,\\
+Coule la nuit.\\
+Fraîche la pluie,\\
+Pourrit le chaume.\\
+Froide la rive,\\
+Oh ! chaud l’amour.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Oh il était une fois un astronaute,\\
+Comme il était heureux !\\
+Il a volé en gravité,\\
+Et vraiment il a tout goûté,\\
+Mais un jour, j’en ai bien peur,\\
+Un jour il a trébuché,\\
+Atterri sur une planète\\
+Dans la poussière.\x
+ 
+Ç’aurait pu ne pas être si grave,\\
+Mais restait le pire à venir ;\\
+Son seul et unique compagnon\\
+Était un tra-la-la de scaphandre,\\
+Un vrai sac à merde\\
+Qui prenait l’homme pour un gland,\\
+Et ce qu’il voulait en fait\\
+C’était se retrouver en-dedans en-dehors.\x
+(refrain)\x
+En-dedans en-dehors, dedans en-dehors,\\
+En-dedans en-dehors, dedans en-dehors ! \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+Oiseau de rêve, oiseau rôdeur, où va ton vol ?\\
+— Je plane sur la ville et partout sous le ciel,\\
+Rôdant, rêvant parmi les bandes et les rues,\\
+Instable et insolent, amer ou tout joyeux.\\
+— Le rôdeur, le prodigue, a eu tort de bouger :\\
+La Ville est toute vile et le ciel est souillé\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{07}$}%
+\begin{verse}
+\begin{verse01}
+O lumière de l'est, éveille\\
+Ceux qui ont dormi!\\
+Les ténèbres seront dissipées,\\
+Et tenue la promesse.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{08}$}%
+\begin{verse}
+\begin{verse01}
+On dit que le temps guérit toute blessure,\\
+On dit que l’on peut toujours oublier.\\
+Mais la vie est toujours là et tout le temps qu’elle dure,\\
+\phicesure {Par la joie ou par les pleurs toujours mon cœur} {est travaillé.}
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{09}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{09}$}%
+\begin{verse}
+\begin{verse01}
+on m’a offert une étoile, \\
+on m’a offert une étoile, \\
+j’ai une étoile à moi... 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{10}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{10}$}%
+\begin{verse}
+\begin{verse01}
+On va vers l’ouest, on s’y déplace\\
+On y progresse sans laisser de traces\\
+Pour être tranquilles, et francs-Recréés\\
+On crée notre ville, notre liberté.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{11}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{11}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {Orginet-Porginet, Ford, flonflons et folies, Que filles} {à baiser en Un Tout soient unies !} \\
+Garçons, ne faites qu'un avec filles en paix ! ... \\
+Orginet-Porginet vous rendra satisfaits.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{12}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{12}$}%
+\begin{verse}
+\begin{verse01}
+Oublierai-je Phalanda ? Oui, je l’oublierai\\
+Car la Mort porte l’oubli\\
+Et l’oubli englobe l’endeuillé et l’objet du deuil,\\
+Reste ma larme mais non sa cause ;\\
+La pensée de la Mort meurt dans un cœur jeune,\\
+\phicesure {Ou, vivante, paraît une saveur ajoutée aux} {artifices de la Vie.}\\
+\phicesure {Maintenant, dans mon automne, le sort remémoré} {de la Mort} \\
+Apporte plus d’oubli que mon printemps n’oublia.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{O}_\textrm{13}$}
+\addcontentsline{toc}{section}{\small$\textrm{O}_\textrm{13}$}%
+\begin{verse}
+\begin{verse01}
+Oui, il faut à l’amour concentrer ses rayons\\
+Au prisme de l’espoir ou bien de la mémoire\\
+Avant de mesurer sa propre dimension :\\
+Trop tôt avec la mort vient la révélation\\
+D’un amour plus profond que nous pouvons le croire.\!
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Partout sous l'eau existent des villes, les villes anciennes.\\
+\phicesure {Partout au fond de la mer il y a des routes et des} {maisons,}\\
+ \hspace*{1cm}des rues et des maisons.\\
+Sous la vase dans l'obscurité de la mer\\
+ \hspace*{1cm}des livres existent, des os existent.\\
+Toutes ces âmes existent sous la mer,\\
+ \hspace*{1cm}sous la mer, dans la vase,\\
+ \hspace*{1cm}dans les villes anciennes dans l'obscurité.\\
+Il y a trop d'âmes là-bas.\\
+Prends garde si tu te promènes au bord de la mer,\\
+ \hspace*{1cm}si tu navigues sur la mer Intérieure\\
+ \hspace*{1cm}au-dessus des villes anciennes.\\
+\phicesure {Tu peux voir les âmes des morts anciens, un feu} {froid dans l'eau.}\\
+\phicesure {Elles prendront n'importe quel corps, le luminifère,} {la méduse, les puces de sable,}\\
+ \hspace*{1cm}ces âmes anciennes.\\
+N'importe quel corps elles peuvent le prendre.\\
+Elles entrent à la nage par leurs fenêtres, elles dérivent\\
+ \phicesure{\hspace*{1cm}sur leurs routes, dans la vase dans l'obscurité} {de la mer.}\\
+\phicesure {Elles s'élèvent dans l'eau vers le soleil, affamées} {de naissance.}\\
+Prends garde à l'écume de la mer, jeune femme,\\
+ \hspace*{1cm}prends garde aux puces de sable !\\
+Tu risquerais de trouver une âme ancienne dans ton ventre,\\
+ \hspace*{1cm}une âme ancienne, un être nouveau.\\
+Il n'y a pas assez de gens pour les âmes anciennes,\\
+ \hspace*{1cm}bondissant comme des puces de sable.\\
+\phicesure {Leurs vies étaient les vagues de la mer, leurs âmes} {sont l’écume,}\\
+ \hspace*{1cm}traces d'écume sur le sable brun,\\
+ \hspace*{1cm}présentes et absentes.\\
+ \end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Pas comme ça.\\
+Pas comme ça.\\
+Nous n’abandonnons pas.\\
+Nous n’abandonnons pas ?\\
+Nous n’abandonnons pas ! \\
+\phicesure {Car les autres n’abandonneront pas. Si nous aban-} {-donnons nous serons renvoyés du jardin.}\\
+Pourquoi nous ?\\
+Bien sûr, ça ne devrait pas être eux non plus.\\
+Ça ne devrait être personne.\\
+\phicesure {Mais il faut bien que certains soient renvoyés, le jardin} {ne pourra pas tous nous accueillir.}\\
+Nous ne voulons pas quitter le jardin.\\
+Il est pourquoi nous ne devons pas abandonner. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Pas de chef à écouter\\
+ visions en abondance\\
+ légumes dans toutes les casseroles\\
+ pas de morts dans la guerre pas de peine\\
+ voyage gratuit école gratuite définitions\\
+ gratuites du mot gratuit\\
+ travaillons sur le dictionnaire\\
+ venez voir nos expositions\\
+ de la pensée native de la nuit !\\
+ Ouvrez la porte!
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+\phicesure {)- pas pouvoir poser gonfalon mais prépare chemin} {tout comme )-} \\
+éclaireur reste )- \\
+montre contrevents à golgoth )- \\
+galope en tête galope galope sous le névé bon rotor )-\\ pénétrante facile en sud-est repère )- \\
+juste suivre à main gauche éboulis )- \\
+cairn à faire )- \\
+trace d’izard petites crottes longer crottes )- \\
+\phicesure {retraverser sous pin à crochet tête de tapir bon} {thermique alors )-} \\
+grimper droit face pente direct sur collet )- \\
+basculer sur ubac trace oblique oblique tombante )- \\
+viser ligne de talweg toujours meilleur abri vallon )- \\
+suivez la lueur suivez..
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Plaisant et très spécial pour les membres admis !\\
+Plaisant pour les divers valets et favoris !\\
+Bourrez-les de plancton, de chabots, de hachis !\\
+Simple est la Ville, oh ! oui, et simples ses esprits.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+« Plus clair... que mille soleils... »\\
+\phicesure {« Plus clair... Oh ! Dieu, c’est plus clair... plus clair...} {que mille soleils... »}\\
+ « Plus noir... le monde devient plus noir... »\\
+ « Plus noir... le monde devient plus noir... »\\
+ « Jusqu’à ce qu’il fasse si noir... »\\
+ « Que pour moi la mort viendra... »\\
+ « Avant le lever du jour... »\\
+ \phicesure {« Mais avant de mourir, avant l’heure du néant, je veux} {faire ce voyage... »}\\
+ « Le dernier grand flash va briller dans le ciel... »\\
+ « Et bong ! le monde est mort... »\\
+ \phicesure {« Mais avant de mourir, prenons tous l’overdose}{qui tranchera nos liens...}\\ 
+ qui nous grillera les plombs, qui nous congèlera l’âme...\\
+ \phicesure {le dernier grand flash, la défonce ultime, le voyage} {dont on ne revient pas... »}\\
+ \phicesure {« Plus clair... grand Dieu, c’est plus clair...} {plus clair que mille soleils... »}\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{07}$}%
+\begin{verse}\begin{verse01}
+Pour vous, gentilles sphères, et vous garçons coniques\\
+De la race future, jeunesse magnifique.\\
+Nous vous chantons ici le Lai fort authentique\\
+Du Capitain’ Road-Storm des antiques chroniques.\!
+
+Des périls sans pareils, des exploits démentiels\\
+Qui en lettres de sang maculèrent les ciels,\\
+Vous conterons, enfants au regard angélique\\
+Et croirez chaque mot parole évangélique.\!
+
+Oyez, oyez, enfants, l’épopée fantastique\\
+Des chevaliers défunts dans la nuit galactique\\
+Et dont pourtant la Mort que l’on dit souveraine\\
+N’a pu malgré ses soins anéantir le règne.\!
+
+D’aucuns certes plus faibles pâlirent de peur.\\
+D’aucuns furent toujours sans reproche et sans peur,\\
+D’aucuns retrouvèrent la route de la Terre.\\
+Dieu, que leur périple prit de temps pour ce faire ! 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{08}$}%
+\begin{verse}
+\begin{verse01}
+
+Pourquoi nier que tu ignores comment t'y prendre\\
+ Peut-être tromperas-tu certaines jeunes filles\\
+ mais tu ne peux tromper le Ciel.\\
+ J'ai rêvé que tu jouais avec la\\
+ Fleur de locuste sous ma veste\\
+ verte, Tel un eunuque avec une courtisane.\\
+ Écoute cependant\\
+ Tu ne fais que marmonner.\\
+Tu m'as rendue trempée et luisante,\\
+ Mais toute la sollicitude dont tu fais preuve\\
+ Ne mène à rien. Cesse donc.\\
+ Va rendre quelqu'un d'autre Insatisfait.\\	
+
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{09}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{09}$}%
+\begin{verse}
+\begin{verse01}
+Prends les cylindres de mes reins\\
+La bielle de mon cerveau\\
+Prends l’arbre à came de mon épine dorsale\\
+Et reconstruis le moteur.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{P}_\textrm{10}$}
+\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{10}$}%
+\begin{verse}
+\begin{verse01}
+Prenez garde :\\
+L’ignorance\\
+Se défend.\\
+L’ignorance\\
+Engendre la méfiance.\\
+La méfiance\\
+Engendre la peur,\\
+Aveugle, irrationnelle.\\
+La peur se recroqueville,\\
+Elle avance en tapinois.\\
+Aveugle, repliée sur elle-même,\\
+Méfiante et fourbe,\\
+L’ignorance\\
+Se met à l’abri.\\
+Ainsi protégée, elle se développe. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+%\newpage
+%\section*{\Huge$\textrm{P}_\textrm{11}$}
+%\addcontentsline{toc}{section}{\small$\textrm{P}_\textrm{11}$}%
+%\begin{verse}[\versewidth]
+%\begin{verse01}
+%\phicesure {pyroxène triphane ropyphane trixène xèrophane} {pytrine}\\
+%\phicesure {trixèrone phapyne phatrirone pyxène ropyxène} {phatrine}\\
+%\phicesure{ xèropyne triphane trirophane xèpyne phaxètrine} {pyrone}\\
+%\phicesure {pyphaxène trirone xèpytrine rophane triropyne} {phaxène}
+%\phicesure {phaxèpyne rotrine pytriphane xèrone rophatrine} {pyxène}\\
+%\phicesure {tripyxène pharone pharoxène pytrine pytrirone} {phaxène}\\
+%\phicesure {rophapyne xètrine xèphatrine ropyne phapytrine} {roxène}\\
+%\phicesure {« pyxètrine pharone rotrixène pyphane xèphapyne} {trirone}\\
+%\phicesure {phapyrone xètrine pyrophane trixène roxèphane} {pytrine}\\
+%\phicesure {xètrirone phapyne tripharone pyxène pyroxène} {phatrine}\\
+%\phicesure {roxèpyne triphane xèrophane tripyne trixèphane} {pyrone}\\
+%\phicesure {phatrirone xèpyne ropytrine xèphane xèropyne} {phatrine}\\
+%\phicesure {trixèpyne rophane phaxètrine ropyne pyphatrine} {roxène}\\
+%\phicesure {xèpytrine pharone triroxène pyphane phaxèpyne} {trirone}\\
+%\phicesure {pypharone xètrine rophatrine xèpyne tripyphane} {roxène}
+%\phicesure {pharoxène tripyne pytrixène rophane rophapyne} {trixène}
+%\phicesure {tripyrone xèphane phapytrine xèrone pyxèphane} {rotrine}
+%\phicesure {rotrixène phapyne xèpharone pytrine phapyrone} {trixène}
+%\phicesure {pyxèrone triphane roxèphane tripyne xètriphane} {pyrone}
+%\phicesure {tripharone xèpyne pyrotrine xèphane roxèpyne} {phatrine}
+%\phicesure {xètripyne rophane trixèphane ropyne phatrixène} {pyrone}
+%\phicesure {ropytrine phaxène xèrotrine pyphane trixèpyne} {pharone}
+%\phicesure {phatripyne roxène pyphatrine xèrone xèpyphane} {rotrine}
+%\phicesure {triroxène phapyne phaxèrone pytrine pypharone} {trixène}
+%\phicesure {xèpyrone triphane tripyphane xèrone pharotrine} {pyxène}
+%\phicesure {pytrixène pharone rophaxène pytrine tripyrone} {phaxène}
+%\phicesure {pharopyne xètrine pyxèphane trirone rotriphane} {pyxène}
+%\phicesure {« xèpharone tripyne phapyxène rotrine pyxèrone} {phatrine}
+%\phicesure {rotripyne xèphane xètriphane ropyne triphaxène} {pyrone}
+%\phicesure {pyrotrine phaxène roxètrine pyphane xètripyne} {pharone}
+%\phicesure {triphapyne roxène phatrixène ropyne ropyphane} {xètrine}
+%\phicesure {xèrotrine phapyne trixèrone pyphane phatripyne} {xèrone}
+%\phicesure {ropyxène triphane xèpyphane trirone trirophane} {pyxène}
+%\phicesure {phaxèrone tripyne pyphaxène rotrine xèpyrone} {phatrine}
+%\phicesure {triropyne xèphane pharotrine xèpyne pytriphane} {roxène}
+%\phicesure {rophaxène tripyne tripyxène rophane pharopyne} {trixène}
+%\phicesure {pytrirone xèphane rotriphane xèpyne xèphatrine} {pyrone}
+%\phicesure {phapyxène trirone pyxètrine rophane rotripyne} {phaxène}
+%\phicesure {xèphapyne rotrine triphaxène ropyne pyrophane} {xètrine
+%\phicesure {roxètrine phapyne xètrirone pyphane triphapyne}{xèrone}
+%\end{verse01}
+%\end{verse}
+
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{Q}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{Q}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Quand Jerry Clawson était un tout petit garçon\\
+Dorloté par sa mère, dans notre Kentucky,\\
+\phicesure {Il disait : \og   Je conduirai ces grands vaisseaux} {dans l’espace}\\
+Jusqu’à mon dernier souffle de vie.  \fg{}
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{Q}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{Q}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+  ... Quand la branche craquera,\\
+Le berceau tombera.\\
+Par...
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{Q}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{Q}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Quand une apparente stabilité se désintègre,\\
+Comme il se doit\\
+Car Dieu est Changement\\
+Les gens ont tendance\\
+À s’abandonner à la peur et au désespoir,\\
+À l’agressivité et à la cupidité.\\
+Quand il n’y a pas d’influence assez forte\\
+Pour unir les gens,\\
+Ceux-ci se divisent,\\
+Ils luttent les uns contre les autres,\\
+Groupe contre groupe,\\
+Pour survivre, dominer.\\
+\phicesure {Ils exhument les anciennes haines et en créent} {de nouvelles.}\\
+Ils créent le chaos et l’entretiennent.\\
+Ils tuent et tuent et tuent,\\
+Jusqu’à ce qu’ils se lassent ou périssent eux-mêmes,\\
+\phicesure {Jusqu’à ce que des forces extérieures viennent} {les asservir,}\\
+\phicesure {Ou jusqu’à ce que l’un d’eux devienne un leader,} {que le peuple suivra.}\\
+Ou un tyran que le peuple craindra. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{Q}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{Q}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+Que font-ils,\\
+\phicesure {les chanteurs, écrivains, danseurs, peintres,} {ceux qui modèlent et fabriquent ?}\\
+\phicesure {Ils partent les mains vides, dans le blanc,} {dans l'intervalle.}\\
+Ils reviennent avec des choses dans les mains.\\
+\phicesure {Ils partent silencieux et reviennent avec des mots,} {des airs.}\\
+Ils entrent dans le chaos et reviennent avec des motifs.\\
+Ils partent en boitant et pleurant, laids et effrayés,\\
+et reviennent avec les ailes de l'aigle mauvis,\\
+les yeux du puma.\!
+
+C'est là qu'ils vivent,\\
+qu'ils trouvent leur souffle :\\
+là-bas, dans le blanc, dans l'intervalle,\\
+le lieu vide.\\
+
+Où vivent les mystérieux artistes ?\\
+ Là, dans le blanc, dans l'intervalle.\\
+Leurs mains sont la charnière,\\
+Personne d'autre ne peut respirer Id-bas.\\
+Ils sont au-dessus de tout éloge.\!
+
+Les artistes ordinaires\\
+ usent de patience, de passion, d’habileté, de travail\\
+et se remettant à la tâche, de jugement,\\
+proportion, intellect, but,\\
+indifférence, obstination, plaisir des outils,\\
+plaisir, et avec tout ça pour seule voie\\
+ils s'approchent de l'intervalle, du centre,\\
+approchent en cercles, en spires,\\
+à la façon de la buse, qui regarde en bas, aux aguets,\\
+à la manière du coyote, aux aguets.\!
+
+Ils regardent vers le centre,\\
+ils tournent au centre,\\
+ils décrivent le centre,\\
+bien qu'ils n'y puissent vivre.\\
+Ils méritent des éloges.\!
+
+Il y a des gens qui se disent artistes\\
+qui rivalisent pour recevoir des éloges.\\
+Ils pensent que le centre est un boyau bien plein,\\
+et que chier c'est travailler.\\
+ Ils sont ce que la buse et le coyote\\
+ont mangé hier au petit déjeuner.\!
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{Q}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{Q}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Quel écart d'une lèvre à l'autre ?\\
+Assez pour qu'en sorte un mot.\\ 
+Quel écart d'une lèvre à l'autre ?\\
+Assez pour qu'un homme y entre.\\
+Si le mot est oui, oui,\\
+si le mot est oui, si les lèvres s'ouvrent consentantes,\\
+entre en moi, oui, oui, entre en moi, oui.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{R}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{R}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Rimes... [Visage triste]\\
+Signification... [Visage qui tire la langue]\\
+Symbolisme... [Visage, pouce vers le bas]\\
+Vielle école... [Visage, doigt d'honneur]\\
+Génération E... [Visage, deux pouces vers le haut]
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{R}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{R}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Rond comme une boule, bourg-terre.\\
+Chaque rue se rejoint au bout.\\
+Anciennes sont les routes,\\
+longs sont les chemins,\\
+larges sont les eaux.\\
+Les baleines nagent plein ouest retournant à l'est,\\
+les sternes volent plein nord retournant au sud,\\
+\phicesure {la pluie tombe pour s'élever, les étincelles} {s'élèvent pour retomber.}\\
+L'esprit peut contenir le tout\\
+mais à pied nous ne parvenons pas\\
+au début de la fin de la rue.\\
+Les collines sont escarpées,\\
+les années sont escarpées,\\
+profondes sont les eaux.\\
+Dans le bourg rond\\
+on est loin de chez soi.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{S}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{S}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Scintille et brille, astre doré,\\
+Si loin sois-tu, je t'atteindrai.\\
+Ferme la bouche,\\
+Trouve la tête,\\
+Cherche un serpent...\x
+
+Scintille et brille, astre doré,\\
+Si loin sois-tu, je t'atteindrai.\\
+Ferme la bouche,\\
+Trouve la tête,\\
+Cherche un serpent\\
+Rayé de rouge,\\
+Pour en nourrir\\
+La tortue ronde.\\
+Alors la nuit sera soleil\\
+Et ce sera le temps du long sommeil. \x
+
+Scintille et brille, insecte d'or,\\
+C'est toi dont la piqûre endort.\\
+Dans une chambre\\
+À la croix noire,\\
+Pique mon bras\\
+De ton dard froid ;\\
+Que j'aille au lit\\
+Pour m'endormir.\\
+Alors la nuit sera sans jour,\\
+Mais le sommeil ne dure pas toujours.\x
+
+Scintille et brille, astre doré,\\
+Si loin sois-tu, je t'atteindrai.\\
+Ferme la bouche,\\
+Trouve la tête.\\
+Cherche un serpent\\
+Rayé de rouge\\
+Pour en nourrir\\
+La tortue ronde.\\
+Alors la nuit sera soleil,\\
+Et ce sera le temps du long sommeil.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{S}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{S}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+semblabes à nous \\
+ceux qui ouvrent la bouche pour parler \\
+mille grâces à ceux qui ont entendu notre langage \\
+et ne l’ayant pas trouvé excessif \\
+se sont joints à nous pour transformer le monde.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{S}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{S}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+S’EST ÉTENDU L’HIVER OÙ LES HOMMES\\
+\phicesure {À SEMELLES DE VENTETE MARCHENT} {SUR LA GUEULE}\\ 
+POUR Y IMPRIMER LEURS MARQUES.\\
+\phicesure {TOI, TU AS LEVISAGE DU PRINTEMPS} {QUI S’IGNORE}\\
+ET QUI VIENT, QUI LÈVE DANS TES YEUX. \\
+TOI, TU ÉTAIS DÉJÀ DEBOUT.\\
+CE MANTRACT EST POUR TOI, POUR NOUS. \\
+QUI SOMMES LÉGION.\\
+ET QUI AVANÇONS AVEC CETTE PORTE OUVERTE\\
+ENTRE NOS DEUX ÉPAULES, QUI BAT,\\
+ ET NOS ALLURES D’APPEL D’AIR.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{S}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{S}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+si les esclaves\\
+contre leur volonté s’épuisent\\
+debout en injuriant \\
+des maîtres haïssables \\
+ils meurent mais sans qu’ \\
+ils laissent tomber leurs armes \\
+trop ardents au combat \\
+pour fuir et se cacher. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{S}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{S}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Souffle sur moi tes silences,\\
+Et je m’approche.\\
+Chuchote-moi tes désirs,\\
+Et tes souffrances.\\
+Chante pour moi tes rêves,\\
+Et je te siffle mes pensées.\\
+Murmure dans ton sommeil,\\
+Et je délire dans mes jours... 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{S}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{S}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+soleil qui épouvantes et ravis\\
+insecte multicolore, châtoyant\\
+tu te consumes dans la mémoire nocturne\\
+sexe qui flamboie\\
+cercle est ton symbole\\
+de toute éternité tu es \\
+de toute éternité tu seras. 
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{T}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{T}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Tigre, tigre, flambant clair\\
+Dans la forêt de la nuit,\\
+À qui sont la main et l’œil\\
+Qui t’ont fait terrible et beau ?
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{T}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{T}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Tout ce que peux souhaiter\\
+Tu n’as qu’à demander.\x
+
+Élixir sans égal\\
+Dans flacon de cristal.\\
+Monceaux de victuailles\\
+Pour faire bonne ripaille.\x
+
+Plaisirs de tous les sens\\
+Et de toutes essences.\x
+
+Mais s’il est temps encor’\\
+Prends garde aux anneaux d’or\\
+Du ver qui dans ton corps,\\
+Sous de brillants dehors\\
+Ronge, ronge et ronge à mort.\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{T}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{T}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Tu te fanais mais à présent,\\
+Tu refleuris, Kharezm! \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{T}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{T}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+\textsc{chœur}\\
+Tournez tournez autour de la maison\\
+Tournez autour et revenez\\
+tout brûle brûle brûle\\
+tout brûle tout a flambé\x
+
+\textsc{solo}\\
+Ô qui rompra le cercle\\
+Ô qui lâchera ma main\\
+Ô qui sera mon amant\\
+au pays du couchant/x
+
+\textsc{chœur}\\
+Ouvrez le cercle de toutes parts\\
+séparez-vous, virevoltez et passez\\
+tout au long des vallées\\
+et des collines d'herbe séchée\x
+
+\textsc{solo}\\
+Formez et brisez le cercle\\
+Prenez et lâchez ma main\\
+Aimez-moi et laissez-moi danser\\
+au pays du couchant\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{T}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{T}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Tout change, en Saison.\x
+
+Prends garde à la roche instable. \\
+Prends garde au robuste inconnu. \\
+Prends garde au brusque silence.\x
+
+\phicesure {Avant, rassemblez dans la roche stable un an de} {provisions par citoyen :} \\
+dix réglettes de céréales, \\
+cinq de légumes, \\
+\phicesure {un quart de change de fruits séchés et une demi-réserve} {de suif, de fromage ou de viande séchée.} \\
+Multipliez par chaque année de vie désirée. \\
+\phicesure {Après, gardez sur la roche stable avec trois âmes} {costaudes par cache,} \\
+minimum : une pour surveiller la cache, \\
+deux pour surveiller le surveillant.\x
+
+La secousse qui passe résonnera. \\
+La vague qui recule reviendra. \\
+La montagne qui gronde rugira.\x
+
+Ne mettez pas la chair à prix.\x
+
+Ne respirez pas la fine pluie de cendre. \\
+Ne buvez pas l’eau rougie. \\
+Ne foulez pas trop longtemps la terre chaude.\x
+
+Considérez-les à l’aune de leur utilité : \\
+les Dirigeants et les Résistants, \\
+les féconds et les habiles, \\
+les sages et les meurtriers, \\
+plus quelques Costauds pour veiller sur eux.\x
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{T}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{T}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+Tu es venue et le soleil t’a suivie\\
+Et la verdure s’est muée en or\\
+Et les glaïeuls ont ri d’allégresse\\
+Et la reine-des-prés a frémi d’amour.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{T}_\textrm{07}$}
+\addcontentsline{toc}{section}{\small$\textrm{T}_\textrm{07}$}%
+\begin{verse}
+\begin{verse01}
+Tu n’as plus ni mouvance ni force,\\
+Tu ne vois ni n’entends.\\
+Et dans sa course diurne, la terre te roule\\
+Avec les roches et les pierres et les arbres. \\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{T}_\textrm{08}$}
+\addcontentsline{toc}{section}{\small$\textrm{T}_\textrm{08}$}%
+\begin{verse}
+\begin{verse01}
+Toutes les luttes sont\\
+Des luttes de pouvoir.\\
+Qui gouvernera,\\
+Qui régentera,\\
+Qui définira,\\
+Qui désignera,\\
+Qui dominera.\\
+Toutes les luttes sont\\
+Des luttes de pouvoir,\\
+Et la plupart\\
+Ne sont pas plus intellectuelles\\
+Que deux béliers\\
+Se jetant l’un contre l’autre.\\
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{U}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{U}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Une ou deux fois\\
+Par semaine\\
+Tenir un rassemblement\\
+De Semence de la Terre…\\
+Pour libérer l’émotion,\\
+Apaiser l’esprit.\\
+Mobiliser l’attention,\\
+Renforcer le dessein et\\
+Unifier les gens. ?
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{U}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{U}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+…UN ET UN ET UN ET DEUX ET ROUGE\\
+ ROUGE-NOIR ROUGE-BLEU\\ TRANCHE DANS LE MONT\\ FIL DE CHALUT FULIGINEUX\\ VIENS TENDS ET FENDS\\ CONSTRUIS MES LIENS\\ MES LIEUX\\ MES YEUX\\ MON DOUX ENFANT\\ QUEL TAMBOURIN TON COUPE-POUSSIÈRE\\ TU FAIS UN LENT PIÈGE D’OUTIL \\ AU TEMPO DE PIERRE...\\CROQUE MUSIQUE ET CROQUE BRUIT\\ IMPULSE UN POULS\\ PULSILOGUM CETTE MAGIE...\\MOUDS ET MEULE BROIE ET DÉFROISSE\\ DEVANT DÉFROISSE DÉFROISSE \\TU T’APPELLES RAMAKADEVA\\ SECOUE-TOI PETIT DIABLE\\ \phicesure {TU FLANCHES AU FLANC DE L’AU-DEVANT} {DE TON BÂTI...}\\ET CASSE ET CASSE...\\ET PASSE ET POUSSE\\ ILS VEULENT TON INTERVENTION\\ SALIVENT LE SOUFFLE COURT\\ LES DIABLES DU MOUVEMENT ALLEGRO\\ EXULTANT CITANT CITE LE SITE\\ ÉMINENT ÉLÈVE-TOI\\ ET VIRE DE BORD HOMME À VAPEUR\\ TU ES BIEN DANS LE TEMPO DES PLAINES...
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{U}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{U}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+U-ni-vers ra-di-eux !\\
+Nous som-mes tes en-fants\\
+Tous tes en-fants.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{U}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{U}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+Un patron, un stencil, un modèle et un plan.\\
+Les plus communs, les plus tocards de tous les gens,\\
+Nuls et en règle, éprouvent passion et pitié,\\
+Monde Entier, Monde Entier, Ville du Monde Entier.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{U}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{U}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Un saumon gris-rose remontant les chutes de la nuit\\
+Vers le bassin de frai d’un nouveau jour.\x
+ 
+L’aube… le rouge beuglement du taureau héliaque\\
+Chargeant sur l’horizon.\x
+ 
+Le sang photonique de nuit sanglante,\\
+Poignardée par le soleil assassin.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{U}_\textrm{06}$}
+\addcontentsline{toc}{section}{\small$\textrm{U}_\textrm{06}$}%
+\begin{verse}
+\begin{verse01}
+URSULE OBI ANTIGONE\\
+ANTIGONE AGNETHE\\
+NON – SIGNES DÉCHIRANT\\
+SURGIS VIOLENCE DU BLANC\\
+DU VIVACE DU BEL AUJOURD’HUI\\
+D’UN GRAND COUP D’AILE IVRE\\
+TROUÉ DÉCHIRÉ LE CORPS\\
+(INTOLÉRABLE)\\
+ÉCRIT PAR DÉFAUTS\x
+
+SURGIS NON – SIGNES ENSEMBLE\\
+ÉVIDENTS – DÉSIGNÉ LE TEXTE\\
+(PAR MYRIADES CONSTELLATIONS)\\
+QUI MANQUE\x
+ 
+LACUNES LACUNES LACUNES\\
+CONTRE TEXTES\\
+CONTRE SENS\\
+CE QUI EST À ÉCRIRE VIOLENCE\\
+HORS TEXTE\\
+DANS UNE AUTRE ÉCRITURE\\
+PRESSANT MENAÇANT\\
+MARGES ESPACES INTERVALLES\\
+SANS RELACHE\\
+GESTE RENVERSEMENT.
+\end{verse01}
+\end{verse}
+
+
+%************************************************************
+\newpage
+
+\newpage
+\section*{\Huge$\textrm{V}_\textrm{01}$}
+\addcontentsline{toc}{section}{\small$\textrm{V}_\textrm{01}$}%
+\begin{verse}
+\begin{verse01}
+Vainement glorieux nous sommes\\
+Ce monde fallace n’est que transitoire\\
+Chair se flestrit\\
+L’estat de l’homme change et varie\\
+Hier en santé et cy au grabat,\\
+Hier folastre et cy accablé,\\
+Hier vivace et cy promis à trespas.\\
+Nul estât tant n’est sur Terre aussi débile.\\
+Tel au vent roseau ploie\\
+S’efface la vanité de ce bas monde\\
+TIMOR MORTIS CONTURBAT ME.
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+
+\section*{\Huge$\textrm{V}_\textrm{02}$}
+\addcontentsline{toc}{section}{\small$\textrm{V}_\textrm{02}$}%
+\begin{verse}
+\begin{verse01}
+Vers le merle, vers le merle d'eau\\
+ qu'elle aille, qu'elle aille.\\
+ Ô madia, les pousses de blé\\
+ ont aussi besoin de cette eau.\\
+ Ô taillis, les feuilles de haricots\\
+ ont aussi besoin de cette eau.\\
+ Flot de l'eau qui coule,\\
+ nous ne voulons pas ceci!\\
+ Qu'elle aille vers le merle d'eau\\
+ vers l'araignée d'eau.\\
+ Que les ailes de l'oie sauvage\\
+ l'emportent dans les cieux.\\
+ Que la larve de la libellule\\
+ l'emporte vers la terre.\\
+ Nous ne voulons pas ceci,\\
+ nous ne le désirons pas,\\
+ nous n'empruntons que l'eau\\
+ sur notre chemin vers le retour.\\
+ Nous qui agissons ainsi\\
+ tous nous mourrons.\\
+ Flot de l'eau qui coule,\\
+ tolère-nous ici\\
+ sur ton chemin vers le retour.\\
+ \end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{V}_\textrm{03}$}
+\addcontentsline{toc}{section}{\small$\textrm{V}_\textrm{03}$}%
+\begin{verse}
+\begin{verse01}
+Viens t’en remplir la coupe, et au feu du printemps\\
+Jette après cet hiver ton manteau de remords :\\
+Il n’a qu’un bref parcours, le bel oiseau du temps,\\
+À voler, et déjà il a pris son essor.\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{V}_\textrm{04}$}
+\addcontentsline{toc}{section}{\small$\textrm{V}_\textrm{04}$}%
+\begin{verse}
+\begin{verse01}
+Voilà le pivot même de l’ambiguïté\\
+ \hspace*{1cm}cette cité :\\
+des spectres électriques éclaboussent les rues,\\
+l’équivoque pose son masque déformé\\
+ \hspace*{1cm}sur les traits embrumés\\
+d’adolescents qui n’en sont plus.\\
+Suivant leur caprice, les trompeuses ténèbres\\
+donnent à des lèvres charnues\\
+l’aspect ratatiné d’une bouche sénile,\\
+ou parfois leur confèrent la minceur du fil\\
+d’un rasoir ; ou versent un acide rongeur\\
+ \hspace*{1cm}sur une joue couleur \\
+d’ambre...\\
+... ou bien s’engouffrent là dans un ventre béant\\
+pour mieux le défoncer, tandis que lentement\\
+une tache apparaît, sombre, sur la poitrine\\
+mais disparaît soudain au moindre mouvement\\
+ \hspace*{1cm}qu’un éclair illumine ;\\
+et des lèvres charnues retrouvant leur chaleur\\
+ \hspace*{1cm}tombent des perles couleur\\
+ \hspace*{1cm}de rubis\\
+ \hspace*{1cm}On dit\\
+de la foule des gens montant la rue sans trêve,\\
+que cette même foule plus tard la redescend,\\
+comme les épaves d’un ressac incessant\\
+abandonne d’abord, puis arrache à la grève.\\
+Des épaves : la hanche étroite et l’œil numide,\\
+des épaules carrées, des mains mal équarries,\\
+les voilà sur leur proie, ces chacals au teint gris.\\
+Bientôt le point du jour estompe les couleurs\\
+ \hspace*{1cm}à l’heure\\
+où sur les quais la foule des errants\\
+croise les matelots qui vont déambulant\\
+rejoindre leur vaisseau, côté soleil couchant...\\
+\end{verse01}
+\end{verse}
+
+%************************************************************
+\newpage
+\section*{\Huge$\textrm{V}_\textrm{05}$}
+\addcontentsline{toc}{section}{\small$\textrm{V}_\textrm{05}$}%
+\begin{verse}
+\begin{verse01}
+Vos actions  n’auront pas  de\x
+
+mesure.\x
+
+Vous n’avez plus  de  semblable.\x
+
+Vous\x
+
+n’appartenez  plus  à\x
+
+une espèce.\x
+
+Votre  langue\x
+
+est\x
+
+sans partage\x
+
+vous êtes\x
+
+libr
+
+\end{verse01}
+\end{verse}
+
+%************************************************************
+
+
+
+
+
+\newpage
+\center
+\thispagestyle{empty}
+\textit{L'agglossarium} a été mis en page avec \LaTeX\\ via l'éditeur de document TexMaker.\\ 
+
+\medbreak
+\medbreak
+Ont été utilisés comme \textit{package} :
+
+\{inputenc\} pour l'encodage des caractères.\\
+ \{babel\} pour la  typographie française.\\
+\{fontenc\} pour l'encodage des polices.\\
+\{xspace\} pour pour gérer les espaces.\\
+\{txfonts\} pour générer une polices pdf de qualité.\\
+\{verse\} pour pour écrire des verses.\\
+
+\medbreak\medbreak
+La commandes : 
+
+\{phicesure\} a été créée pour franciser\\  le système de césures du package \{verse\}.
+
+\medbreak\medbreak
+L'environnement  : 
+
+\{verse01\} a été créé pour plus de souplesse\\ sur la gestion des vers.
+
+\medbreak\medbreak
+PDF et code source disponible sur \\ 
+http://editionsburnaout.fr/
+
+\medbreak\medbreak
+ISBN : 9782493534026
+
+
+\newpage
+
+\begin{center}
+
+\thispagestyle{empty}
+{\fontsize{30}{48}\selectfont ANNEXE $\beta$ \\ 
+\vspace{8mm}
+\Large (V.1.0)\\ 
+\vspace{5mm}
+\Huge\fontfamily{jkplos}\selectfont
+{\textit{Index relatif\\ à l'Agglossarium}}}\\
+\vspace{15cm}
+\vspace{\fill}
+\end{center}
+\newpage
+ok
+
+
+
+
+
+
+
+\end{document}
